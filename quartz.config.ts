@@ -82,7 +82,7 @@ colors: {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
-      Plugin.NotFoundPage(),
+      
     ],
   },
 }
