@@ -1,10 +1,15 @@
-import { QuartzComponent, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import style from "./styles/footer.scss"
 
-const Footer: QuartzComponent = (_props: QuartzComponentProps) => {
-  return <></>
+interface Options {
+  links: Record<string, string>
 }
 
+export default ((opts?: Options) => {
+  const Footer: QuartzComponent = (_props: QuartzComponentProps) => {
+    return null
+  }
 
-Footer.css = ``
-
-export default Footer
+  Footer.css = style
+  return Footer
+}) satisfies QuartzComponentConstructor
