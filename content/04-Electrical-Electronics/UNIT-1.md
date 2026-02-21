@@ -1,6 +1,3 @@
----
-title: Title
----
 **Chapter:** *syllabus.*
 
 ---
@@ -13,4 +10,7 @@ title: Title
 ### ASSIGNMENTS
 
 [(Assignment-num)](link)
+
+
+
 
