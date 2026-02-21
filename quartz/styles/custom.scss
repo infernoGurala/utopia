@@ -3,7 +3,7 @@
 
 @use "./base.scss";
 
-kk/* Notion palette → applied directly to text */
+/* Notion palette → applied directly to text */
 
 .explorer .explorer-content a {
   color: #d4d4d4 !important;
@@ -53,3 +53,16 @@ kk/* Notion palette → applied directly to text */
 
 /* Other */
 .explorer .explorer-content a[href*="Other"] { color:#a3a3a3 !important; }
+
+
+k/* Real links (strong orange) */
+article a {
+  color: #e07b39 !important;
+}
+
+/* Plain text placeholders under NOTES / ASSIGNMENTS */
+h2 + p,
+h3 + p {
+  color: #555 !important;
+  opacity: 1 !important;
+}

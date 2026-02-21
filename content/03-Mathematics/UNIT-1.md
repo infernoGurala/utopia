@@ -4,12 +4,12 @@
 
 ### NOTES
 
-[Class ppt notes](link)
+Class ppt notes
 
 ---
 ### ASSIGNMENTS
 
-[(Assignment-num)](link)
+Assignment-num
 
 
 
