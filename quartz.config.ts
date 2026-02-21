@@ -94,4 +94,44 @@ const config: QuartzConfig = {
   },
 }
 
+
+
+
+
+
+theme: {
+  fontOrigin: "googleFonts",
+  cdnCaching: true,
+  typography: {
+    header: "Inter",
+    body: "Inter",
+    code: "JetBrains Mono",
+  },
+  colors: {
+    lightMode: {
+      light: "#fafafa",
+      lightgray: "#e5e5e5",
+      gray: "#b8b8b8",
+      darkgray: "#4e4e4e",
+      dark: "#141414",
+      secondary: "#6366f1",
+      tertiary: "#818cf8",
+      highlight: "rgba(99, 102, 241, 0.1)",
+      textHighlight: "#fffba3",
+    },
+    darkMode: {
+      light: "#0f0f0f",
+      lightgray: "#1e1e2e",
+      gray: "#45475a",
+      darkgray: "#cdd6f4",
+      dark: "#cdd6f4",
+      secondary: "#89b4fa",
+      tertiary: "#cba6f7",
+      highlight: "rgba(137, 180, 250, 0.1)",
+      textHighlight: "#f9e2af",
+    },
+  },
+},
+
+
 export default config
