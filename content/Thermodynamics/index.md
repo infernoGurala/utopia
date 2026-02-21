@@ -1,3 +1,3 @@
 ---
-title: Thernomdynamics
+title: Thermodynamics
 ---
