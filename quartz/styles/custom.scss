@@ -1,3 +1,55 @@
+/* Subject colors (Notion style, muted) */
+
+
 @use "./base.scss";
 
-// put your custom CSS here!
+kk/* Notion palette → applied directly to text */
+
+.explorer .explorer-content a {
+  color: #d4d4d4 !important;
+}
+
+/* Semester */
+.explorer .explorer-content a[href*="Semester"] { color:#60a5fa !important; }
+
+/* Thermodynamics */
+.explorer .explorer-content a[href*="Thermodynamics"] { color:#22c55e !important; }
+
+/* Mathematics */
+.explorer .explorer-content a[href*="Mathematics"] { color:#38bdf8 !important; }
+
+/* Electrical */
+.explorer .explorer-content a[href*="Electrical"] { color:#84cc16 !important; }
+
+/* Chemistry */
+.explorer .explorer-content a[href*="Chemistry"] { color:#4ade80 !important; }
+
+/* GAT */
+.explorer .explorer-content a[href*="GAT"] { color:#c4b5fd !important; }
+
+/* Economics */
+.explorer .explorer-content a[href*="Economics"] { color:#fb7185 !important; }
+
+/* Environmental */
+.explorer .explorer-content a[href*="Environmental"] { color:#16a34a !important; }
+
+/* PPSUC */
+.explorer .explorer-content a[href*="PPSUC"] { color:#0ea5e9 !important; }
+
+/* IoT */
+.explorer .explorer-content a[href*="Internet"] { color:#f472b6 !important; }
+
+/* LAB */
+.explorer .explorer-content a[href*="LAB"] { color:#facc15 !important; }
+
+/* English */
+.explorer .explorer-content a[href*="English"] { color:#ddd6fe !important; }
+
+/* Archive */
+.explorer .explorer-content a[href*="Archive"] { color:#a1a1aa !important; }
+
+/* Docs */
+.explorer .explorer-content a[href*="University"] { color:#94a3b8 !important; }
+
+/* Other */
+.explorer .explorer-content a[href*="Other"] { color:#a3a3a3 !important; }

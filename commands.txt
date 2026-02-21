@@ -1,0 +1,5 @@
+push to github
+git add quartz.layout.ts quartz/components/Footer.tsx
+git commit -m "fix footer"
+git push origin v4
+

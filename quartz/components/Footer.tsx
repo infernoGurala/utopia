@@ -7,7 +7,11 @@ interface Options {
 
 export default ((opts?: Options) => {
   const Footer: QuartzComponent = (_props: QuartzComponentProps) => {
-    return null
+    return (
+      <footer>
+        <p>© 2026 Inferno. All rights reserved.</p>
+      </footer>
+    )
   }
 
   Footer.css = style
