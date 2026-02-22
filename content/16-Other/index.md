@@ -1,15 +1,4 @@
 ---
-title: default
----
-**Chapter:** *syllabus.*
-
+title: Other
 ---
 
-### NOTES
-
-Class ppt notes
-
----
-### ASSIGNMENTS
-
-Assignment-num
