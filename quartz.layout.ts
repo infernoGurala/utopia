@@ -1,8 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-
-
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -17,12 +15,17 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-  Component.PageTitle(),
-  Component.MobileOnly(Component.Spacer()),
-  Component.Search(),
-  Component.Darkmode(),
-  Component.Explorer(),
-],
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+    Component.Darkmode(),
+    Component.Explorer({
+      filterFn: (node) => {
+        node.displayName = node.displayName.replace(/^\d+-/, "")
+        return true
+      },
+    }),
+  ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
@@ -36,7 +39,12 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+      filterFn: (node) => {
+        node.displayName = node.displayName.replace(/^\d+-/, "")
+        return true
+      },
+    })),
   ],
   right: [],
 }
