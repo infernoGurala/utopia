@@ -1,4 +1,4 @@
-**Chapter:** *syllabus.*
+**Basic Electronic Circuits:** *Block diagram description of a DC power supply, working of half and full wave, bridge rectifier, filters. Digital Electronics: Overview of Number Systems, Logic gates including Universal Gates, BCD codes, Excess-3 code, Gray code, Hamming code. Truth Tables and Functionality of Logic Gates – NOT, OR, AND, NOR, NAND, XOR and XNOR. Simple combinational circuits – Half and Full Adders.*
 
 ---
 

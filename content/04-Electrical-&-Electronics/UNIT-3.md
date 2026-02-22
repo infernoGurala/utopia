@@ -1,4 +1,4 @@
-**Chapter:** *syllabus.*
+**Energy Resources, Electricity Bill & Safety Measures:** *Conventional and non-conventional energy resources. Layout and operation of various Power Generation systems: Hydel, Thermal, Solar & Wind power generation. Calculation of electricity bill for domestic appliances. Working principle of Fuse and Miniature circuit breaker (MCB). Electric Shock, Earthing and its types, Safety Precautions to avoid shock.*
 
 ---
 
