@@ -12,9 +12,9 @@ Use [Luna](https://t.me/+OUtATOd7b1ljMzFl) *(beta-testing)*
   <a href="07-Economics" class="course-card">📊 Economics</a>
   <a href="08-Environmental-Science" class="course-card">🌿 Environmental Science</a>
   <a href="09-PPSUC" class="course-card">💻 PPSUC</a>
-  <a href="10-IoT" class="course-card">🌐 Internet of Things</a>
+  <a href="10-Internet-of-Things" class="course-card">🌐 Internet of Things</a>
   <a href="11-Chemistry-LAB" class="course-card">🔬 Chemistry LAB</a>
-  <a href="12-EE-LAB" class="course-card">🔌 EE LAB</a>
+  <a href="12-Electrical--and--Electronics-LAB" class="course-card">🔌 EE LAB</a>
   <a href="13-English" class="course-card">📢 English</a>
   <a href="14-Archive" class="course-card">🗂️ Archive</a>
   <a href="15-University-Docs" class="course-card">🏫 University Docs</a>
