@@ -75,9 +75,11 @@ colors: {
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
-      Plugin.ContentIndex({
-        enableSiteMap: true,
-        enableRSS: false,
+Plugin.ContentIndex({
+  enableSiteMap: true,
+  enableRSS: false,
+  sort: "title",
+
       }),
       Plugin.Assets(),
       Plugin.Static(),

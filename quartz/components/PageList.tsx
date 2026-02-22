@@ -58,7 +58,11 @@ type Props = {
 } & QuartzComponentProps
 
 export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort }: Props) => {
-  const sorter = sort ?? byDateAndAlphabeticalFolderFirst(cfg)
+const sorter = sort ?? ((f1, f2) => {
+  const t1 = f1.frontmatter?.title.toLowerCase() ?? ""
+  const t2 = f2.frontmatter?.title.toLowerCase() ?? ""
+  return t1.localeCompare(t2, undefined, { numeric: true, sensitivity: "base" })
+})
   let list = allFiles.sort(sorter)
   if (limit) {
     list = list.slice(0, limit)
@@ -73,9 +77,6 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
         return (
           <li class="section-li">
             <div class="section">
-              <p class="meta">
-                {page.dates && <Date date={getDate(cfg, page)!} locale={cfg.locale} />}
-              </p>
               <div class="desc">
                 <h3>
                   <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">

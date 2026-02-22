@@ -2,6 +2,55 @@
 title: UTOPIA
 ---
 
-Welcome to Utopia — your university knowledge base.
+<div class="course-grid">
+  <a href="02-Thermodynamics" class="course-card">🔥 Thermodynamics</a>
+  <a href="03-Mathematics" class="course-card">📐 Mathematics (M2)</a>
+  <a href="04-Electrical-Electronics" class="course-card">⚡ Electrical & Electronics</a>
+  <a href="05-Chemistry" class="course-card">🧪 Chemistry</a>
+  <a href="06-GAT" class="course-card">🎯 GAT (CRT)</a>
+  <a href="07-Economics" class="course-card">📊 Economics</a>
+  <a href="08-Environmental-Science" class="course-card">🌿 Environmental Science</a>
+  <a href="09-PPSUC" class="course-card">💻 PPSUC</a>
+  <a href="10-IoT" class="course-card">🌐 Internet of Things</a>
+  <a href="11-Chemistry-LAB" class="course-card">🔬 Chemistry LAB</a>
+  <a href="12-EE-LAB" class="course-card">🔌 EE LAB</a>
+  <a href="13-English" class="course-card">📢 English</a>
+  <a href="14-Archive" class="course-card">🗂️ Archive</a>
+  <a href="15-University-Docs" class="course-card">🏫 University Docs</a>
+  <a href="16-Other" class="course-card">📦 Other</a>
+</div>
 
+<style>
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 24px;
+}
 
+.course-card {
+  display: block;
+  padding: 18px 14px;
+  background: var(--lightgray);
+  border-radius: 16px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--darkgray) !important;
+  text-decoration: none !important;
+  transition: transform 0.15s, background 0.15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.course-card:hover {
+  transform: translateY(-3px);
+  background: var(--highlight);
+  color: var(--secondary) !important;
+}
+
+@media (min-width: 900px) {
+  .course-grid {
+    display: none;
+  }
+}
+</style>
