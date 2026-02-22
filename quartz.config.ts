@@ -83,8 +83,8 @@ Plugin.ContentIndex({
       }),
       Plugin.Assets(),
       Plugin.Static(),
-      Plugin.Favicon(),
-      
+Plugin.Favicon(),
+Plugin.NotFoundPage(),      
     ],
   },
 }

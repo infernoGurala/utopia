@@ -1,5 +1,6 @@
 ---
 title: UTOPIA
+socialImage: https://utopia.inferalis.space/static/og-image.png
 ---
 
 <div class="course-grid">
