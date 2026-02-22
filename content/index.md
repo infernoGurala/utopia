@@ -1,8 +1,8 @@
 ---
-title: UTOPIA
+title: Yours for the asking
 socialImage: https://utopia.inferalis.space/static/og-image.png
 ---
-
+Use [Luna](https://t.me/+OUtATOd7b1ljMzFl) *(beta-testing)*
 <div class="course-grid">
   <a href="02-Thermodynamics" class="course-card">🔥 Thermodynamics</a>
   <a href="03-Mathematics" class="course-card">📐 Mathematics (M2)</a>
