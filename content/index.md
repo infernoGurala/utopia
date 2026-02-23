@@ -5,7 +5,7 @@ socialImage: https://utopia.inferalis.space/static/og-image.png
 Use [Luna](https://t.me/+OUtATOd7b1ljMzFl) *(beta-testing)*
 <div class="course-grid">
   <a href="02-Thermodynamics" class="course-card">🔥 Thermodynamics</a>
-  <a href="03-Mathematics" class="course-card">📐 Mathematics (M2)</a>
+  <a href="03-Mathematics-(M2)" class="course-card">📐 Mathematics (M2)</a>
   <a href="04-Electrical-Electronics" class="course-card">⚡ Electrical & Electronics</a>
   <a href="05-Chemistry" class="course-card">🧪 Chemistry</a>
   <a href="06-GAT" class="course-card">🎯 GAT (CRT)</a>
