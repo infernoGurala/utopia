@@ -6,10 +6,10 @@ Use [Luna](https://t.me/+OUtATOd7b1ljMzFl) *(beta-testing)*
 <div class="course-grid">
   <a href="02-Thermodynamics" class="course-card">🔥 Thermodynamics</a>
   <a href="03-Mathematics-(M2)" class="course-card">📐 Mathematics (M2)</a>
-  <a href="04-Electrical-Electronics" class="course-card">⚡ Electrical & Electronics</a>
+  <a href="04-Electrical--and--Electronics/" class="course-card">⚡ Electrical & Electronics</a>
   <a href="05-Chemistry" class="course-card">🧪 Chemistry</a>
-  <a href="06-GAT" class="course-card">🎯 GAT (CRT)</a>
-  <a href="07-Economics" class="course-card">📊 Economics</a>
+  <a href="06-General-Ability-Test" class="course-card">🎯 GAT (CRT)</a>
+  <a href="07-Economics-and-Management" class="course-card">📊 Economics</a>
   <a href="08-Environmental-Science" class="course-card">🌿 Environmental Science</a>
   <a href="09-PPSUC" class="course-card">💻 PPSUC</a>
   <a href="10-Internet-of-Things" class="course-card">🌐 Internet of Things</a>
