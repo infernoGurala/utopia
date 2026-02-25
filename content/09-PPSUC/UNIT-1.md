@@ -14,7 +14,7 @@
 Assignment-num
 
 ---
-Question and Answers
+Question and Answers, _click on the Que to open_
 
 1. [[What is an algorithm and its characteristics]]
 
