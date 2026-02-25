@@ -1,4 +1,3 @@
-**1. Clear & Unambiguous** — Every step must be precisely and clearly stated with no room for confusion or misunderstanding about what to do.
 # Algorithm
 
 An algorithm is a step-by-step procedure or sequence of instructions used to solve a problem. It takes some **input**, processes it through a set of instructions, and produces the required **output**.
