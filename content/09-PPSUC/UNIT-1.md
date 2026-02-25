@@ -14,8 +14,10 @@
 Assignment-num
 
 ---
-Question and Answers, _click on the Que to open_
+#### Question and Answers, 
 
+
+_click on the Questions to open_
 1. [[What is an algorithm and its characteristics]]
 2. [[Define flowchart. Explain different symbols used in flowcharts with suitable examples.]]
 
