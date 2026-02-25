@@ -58,53 +58,50 @@ They are:
 ```mermaid
 flowchart LR
 
-A[Built-in Data Types in C]
+A["Built-in Data Types in C"]
 
-A --> B[Integer<br/>(int)]
-A --> C[Character<br/>(char)]
-A --> D[Floating Point<br/>(float)]
-A --> E[Void<br/>It is nothing]
+A --> B["Integer (int)"]
+A --> C["Character (char)"]
+A --> D["Floating Point (float)"]
+A --> E["Void (it is nothing)"]
 
-%% Integer Section
-B --> B1[short int]
-B --> B2[int]
-B --> B3[long int]
-B --> B4[long long int]
+B --> B1["short int"]
+B --> B2["int"]
+B --> B3["long int"]
+B --> B4["long long int"]
 
-B1 --> B1a[signed (+/-)]
-B1 --> B1b[unsigned (+)]
-B1a --> B1m[2 bytes]
+B1 --> B1a["signed (+/-)"]
+B1 --> B1b["unsigned (+)"]
+B1a --> B1m["2 bytes"]
 B1b --> B1m
 
-B2 --> B2a[signed (+/-)]
-B2 --> B2b[unsigned (+)]
-B2a --> B2m[2 or 4 bytes]
+B2 --> B2a["signed (+/-)"]
+B2 --> B2b["unsigned (+)"]
+B2a --> B2m["2 or 4 bytes"]
 B2b --> B2m
 
-B3 --> B3a[signed (+/-)]
-B3 --> B3b[unsigned (+)]
-B3a --> B3m[4 bytes]
+B3 --> B3a["signed (+/-)"]
+B3 --> B3b["unsigned (+)"]
+B3a --> B3m["4 bytes"]
 B3b --> B3m
 
-B4 --> B4a[signed (+/-)]
-B4 --> B4b[unsigned (+)]
-B4a --> B4m[8 bytes]
+B4 --> B4a["signed (+/-)"]
+B4 --> B4b["unsigned (+)"]
+B4a --> B4m["8 bytes"]
 B4b --> B4m
 
-%% Character Section
-C --> C1[signed character (+/-)]
-C --> C2[unsigned character (+)]
-C1 --> Cm[1 byte]
+C --> C1["signed character (+/-)"]
+C --> C2["unsigned character (+)"]
+C1 --> Cm["1 byte"]
 C2 --> Cm
 
-%% Floating Point Section
-D --> D1[float<br/>6 decimal places]
-D --> D2[double<br/>15 decimal places]
-D --> D3[long double<br/>18 decimal places]
+D --> D1["float (6 decimals)"]
+D --> D2["double (15 decimals)"]
+D --> D3["long double (18 decimals)"]
 
-D1 --> D1m[4 bytes]
-D2 --> D2m[8 bytes]
-D3 --> D3m[16 bytes]
+D1 --> D1m["4 bytes"]
+D2 --> D2m["8 bytes"]
+D3 --> D3m["16 bytes"]
 ```
 
 
