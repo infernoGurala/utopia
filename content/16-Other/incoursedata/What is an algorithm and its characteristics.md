@@ -1,13 +1,3 @@
-# Algorithm
-
-An algorithm is a step-by-step procedure or sequence of instructions used to solve a problem. It takes some **input**, processes it through a set of instructions, and produces the required **output**.
-
-Key points about algorithms: they receive input, contain a sequence of statements to solve a problem using given data, and are completely **language independent** — the same algorithm can be implemented in C, C++, Java, or any other language.
-
----
-
-## Characteristics of an Algorithm
-
 **1. Clear & Unambiguous** — Every step must be precisely and clearly stated with no room for confusion or misunderstanding about what to do.
 # Algorithm
 
