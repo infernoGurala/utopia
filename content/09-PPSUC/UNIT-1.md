@@ -13,5 +13,8 @@
 
 Assignment-num
 
+---
+Question and Answers
 
+1. [[What is an algorithm and its characteristics]]
 
