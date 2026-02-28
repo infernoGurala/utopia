@@ -1,3 +1,3 @@
 ---
-title: Internet of Things
+title: IOT
 ---

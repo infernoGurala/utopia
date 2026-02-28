@@ -1,5 +1,5 @@
 ---
-title: Mathematics (M2)
+title: DEVC
 ---
 <span style="color: #636363">Differential equations and vector calculus (DEVC) - 2501MA02</span>
 

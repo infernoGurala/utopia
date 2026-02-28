@@ -1,3 +1,3 @@
 ---
-title: Economics and Management
+title: Economics
 ---
