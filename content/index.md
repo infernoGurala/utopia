@@ -2,7 +2,7 @@
 title: Semester II
 socialImage: https://utopia.inferalis.space/static/og-image.png
 ---
-*Your university files, beautifully organised.*
+Your university files, beautifully organised.
 
 <div class="course-grid">
   <a href="02-Thermodynamics" class="course-card">🔥 Thermodynamics</a>
@@ -51,3 +51,4 @@ socialImage: https://utopia.inferalis.space/static/og-image.png
   }
 }
 </style>
+
