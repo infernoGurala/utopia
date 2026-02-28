@@ -1,5 +1,5 @@
 ---
-title: Yours for the asking
+title: Semester II
 socialImage: https://utopia.inferalis.space/static/og-image.png
 ---
 Use [Luna](https://t.me/+OUtATOd7b1ljMzFl) *(beta-testing)*
