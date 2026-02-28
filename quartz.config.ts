@@ -18,7 +18,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Inter",
+        header: "Zalando Sans Expanded",
         body: "Source Sans Pro",
         code: "JetBrains Mono",
       },
