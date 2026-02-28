@@ -8,14 +8,9 @@ Use [Luna](https://t.me/+OUtATOd7b1ljMzFl) *(beta-testing)*
   <a href="03-Mathematics-(M2)" class="course-card">📐 Mathematics (M2)</a>
   <a href="04-Electrical--and--Electronics/" class="course-card">⚡ Electrical & Electronics</a>
   <a href="05-Chemistry" class="course-card">🧪 Chemistry</a>
-  <a href="06-General-Ability-Test" class="course-card">🎯 GAT (CRT)</a>
   <a href="07-Economics-and-Management" class="course-card">📊 Economics</a>
-  <a href="08-Environmental-Science" class="course-card">🌿 Environmental Science</a>
   <a href="09-PPSUC" class="course-card">💻 PPSUC</a>
   <a href="10-Internet-of-Things" class="course-card">🌐 Internet of Things</a>
-  <a href="11-Chemistry-LAB" class="course-card">🔬 Chemistry LAB</a>
-  <a href="12-Electrical--and--Electronics-LAB" class="course-card">🔌 EE LAB</a>
-  <a href="13-English" class="course-card">📢 English</a>
   <a href="14-Archive" class="course-card">🗂️ Archive</a>
   <a href="15-University-Docs" class="course-card">🏫 University Docs</a>
   <a href="16-Other" class="course-card">📦 Other</a>
