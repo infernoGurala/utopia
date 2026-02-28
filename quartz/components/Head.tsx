@@ -97,6 +97,22 @@ export default (() => {
             return resource
           }
         })}
+        <script dangerouslySetInnerHTML={{__html: `
+          function addStars() {
+            if (window.innerWidth >= 900) {
+              ['stars','stars2','stars3'].forEach(id => {
+                if (!document.getElementById(id)) {
+                  const div = document.createElement('div');
+                  div.id = id;
+                  document.body.prepend(div);
+                }
+              });
+            }
+          }
+
+          document.addEventListener('DOMContentLoaded', addStars);
+          document.addEventListener('nav', addStars);
+          `}} />
       </head>
     )
   }
