@@ -14,7 +14,6 @@ Assignment-num
 
 ---
 
-[[WHAT IS OHM'S LAW]]
 
 
 
