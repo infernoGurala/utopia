@@ -5,14 +5,14 @@ socialImage: https://utopia.inferalis.space/static/og-image.png
 Use [Luna](https://t.me/+OUtATOd7b1ljMzFl) *(beta-testing)*
 <div class="course-grid">
   <a href="02-Thermodynamics" class="course-card">🔥 Thermodynamics</a>
-  <a href="03-Mathematics-(M2)" class="course-card">📐 DEVC</a>
-  <a href="04-Electrical--and--Electronics/" class="course-card">⚡ Electrical & Electronics</a>
+  <a href="03-DEVC" class="course-card">📐 DEVC</a>
+  <a href="04-BEEE/" class="course-card">⚡ Electrical & Electronics</a>
   <a href="05-Chemistry" class="course-card">🧪 Chemistry</a>
-  <a href="07-Economics-and-Management" class="course-card">📊 Economics</a>
+  <a href="07-Economics" class="course-card">📊 Economics</a>
   <a href="09-PPSUC" class="course-card">💻 PPSUC</a>
-  <a href="10-Internet-of-Things" class="course-card">🌐 IOT</a>
+  <a href="10-IOT" class="course-card">🌐 IOT</a>
   <a href="14-Archive" class="course-card">🗂️ Archive</a>
-  <a href="15-University-Docs" class="course-card">🏫 Docs</a>
+  <a href="15-Docs" class="course-card">🏫 Docs</a>
   <a href="16-Other" class="course-card">📦 Other</a>
 </div>
 
