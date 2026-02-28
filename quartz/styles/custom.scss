@@ -3,6 +3,13 @@
 
 @use "./base.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+.page-title a {
+  font-family: "Zalando Sans Expanded", sans-serif !important;
+}
+
+
 /* Notion palette → applied directly to text */
 
 .explorer .explorer-content a {
