@@ -110,9 +110,24 @@ export default (() => {
             }
           }
 
+          function styleNumberedTitles() {
+            document.querySelectorAll('.section h3 a').forEach(link => {
+              const text = link.textContent.trim();
+              const match = text.match(/^(\\d+)\\s+(.+)$/);
+              if (match) {
+                link.innerHTML = '<span style="-webkit-text-fill-color: white; color: white;">' + match[1] + '</span> <span>' + match[2] + '</span>';
+              }
+            });
+          }
+
           document.addEventListener('DOMContentLoaded', addStars);
+          document.addEventListener('DOMContentLoaded', styleNumberedTitles);
           document.addEventListener('nav', addStars);
+          document.addEventListener('nav', styleNumberedTitles);
           `}} />
+
+
+
       </head>
     )
   }
