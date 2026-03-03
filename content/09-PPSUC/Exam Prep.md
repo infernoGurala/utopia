@@ -1,5 +1,9 @@
-# MID QUESTIONS
+---
+title: Exam Prep
 cssclasses: [shine-title]
+---
+# MID QUESTIONS
+
 ## Unit -I
 1. Explain Structure of C with example program.
 2. Explain Unary operator and Bit wise operator with example program.
