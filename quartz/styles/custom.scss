@@ -70,35 +70,26 @@ animation: animStar 150s linear infinite;
 .section a[href*="Exam%20Prep"],
 .section a[href*="Exam-prep"],
 .section a[href*="Exam%20prep"] {
-  position: relative;
-  overflow: hidden;
-  background: #000;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-weight: 700;
-}
-
-.section a[href*="Exam-Prep"]::before,
-.section a[href*="Exam%20Prep"]::before,
-.section a[href*="Exam-prep"]::before,
-.section a[href*="Exam%20prep"]::before {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: conic-gradient(
+  background: linear-gradient(
+    90deg,
     #00c2ff,
     #33ff8c,
     #ffc640,
     #e54cff,
-    #00c2ff
+    #00c2ff,
+    #33ff8c
   );
-  animation: aurora-spin 4s linear infinite;
-  z-index: -1;
-  filter: blur(8px);
+  background-size: 400% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: auroraText 3s linear infinite;
+  font-weight: 700;
+}
+
+@keyframes auroraText {
+  0%   { background-position: 0% center; }
+  100% { background-position: 400% center; }
 }
 
 @keyframes aurora-spin {
