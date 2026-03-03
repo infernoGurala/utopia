@@ -3,13 +3,7 @@
 [PDF of lesson](https://drive.google.com/file/d/16-qyrixzj4ocFNDGDvO73DMe75VBGoYB/view?usp=drivesdk)
 
 ---
-### ASSIGNMENTS
-
-[Assignment-1](https://drive.google.com/file/d/1ZgNoyq9lZW84_llSyZWTV-4MEepNehLV/view?usp=drivesdk)
-
-
----
-# QUESTIONS:
+# ASSIGNMENT QUESTIONS:
 
 1. Write the disadvantages of hard water in various fields.
 2. Explain the causes, effects, and prevention methods of scales and sludges.
