@@ -10,3 +10,11 @@
 ### ASSIGNMENTS
 
 Assignment-num
+
+---
+
+### MID QUESTIONS 
+
+[clickhere](https://drive.google.com/file/d/1LbY82oWBcB7F2x2Sznr3ebqzxHM4E7Dh/view?usp=drivesdk)
+
+---
