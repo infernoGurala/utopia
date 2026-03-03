@@ -12,6 +12,7 @@ Your university files, beautifully organised.
   <a href="07-Economics" class="course-card">📊 Economics</a>
   <a href="09-PPSUC" class="course-card">💻 PPSUC</a>
   <a href="10-IOT" class="course-card">🌐 IOT</a>
+<a href="11-LAB" class="course-card">🥼LAB</a>
   <a href="14-Archive" class="course-card">🗂️ Archive</a>
   <a href="15-Docs" class="course-card">🏫 Docs</a>
   <a href="16-Other" class="course-card">📦 Other</a>
