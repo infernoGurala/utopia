@@ -1,7 +1,3 @@
-**Chapter:** *syllabus.*
-
----
-
 ### NOTES
 
 Class ppt notes
