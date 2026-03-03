@@ -1,4 +1,5 @@
 # MID QUESTIONS
+cssclasses: [shine-title]
 ## Unit -I
 1. Explain Structure of C with example program.
 2. Explain Unary operator and Bit wise operator with example program.

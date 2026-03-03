@@ -66,3 +66,19 @@ article a {
     to   { transform: translateY(-2000px); }
   }
 }
+
+
+.shine-title h1 {
+  background: linear-gradient(
+    90deg,
+    #e07b39 0%,
+    #ffffff 40%,
+    #7c6ae0 60%,
+    #e07b39 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shine 3s linear infinite;
+}
