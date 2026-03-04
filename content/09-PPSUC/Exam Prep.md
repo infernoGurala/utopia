@@ -17,7 +17,7 @@ cssclasses: [shine-title]
 10. Write a short notes on identifiers, keywords and variables.
 11. Write about basic input and output functions.
 12. Write a C program to find average of 5 subjects.
-
+#### [ANSWERS U-1](https://drive.google.com/file/d/1qVufFOlG8Fku0aVrT4z-RFL-di56fNMr/view?usp=drive_link)
 
 ## Unit -II
 1. Explain simple if, if-else with syntax,flow chart and suitable example program.
