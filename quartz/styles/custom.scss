@@ -1,69 +1,429 @@
 @use "./base.scss";
 
-.page-title a {
-  font-family: "Zalando Sans Expanded", sans-serif !important;
+:root {
+  --m3-primary: #57886c;
+  --m3-on-primary: #ffffff;
+  --m3-primary-container: #81a684;
+  --m3-on-primary-container: #0f2418;
+  --m3-secondary: #466060;
+  --m3-on-secondary: #ffffff;
+  --m3-tertiary: #f8c7cc;
+  --m3-on-tertiary: #3b2328;
+  --m3-surface: #f8f4f3;
+  --m3-surface-container: #efe7e8;
+  --m3-surface-container-high: #e6ddde;
+  --m3-on-surface: #1f1b1d;
+  --m3-outline: #7c7579;
+  --m3-outline-variant: #cac2c6;
+  --m3-shadow: rgba(0, 0, 0, 0.14);
+
+  --secondary: var(--m3-primary);
+  --tertiary: var(--m3-primary);
+  --highlight: color-mix(in srgb, var(--m3-primary) 18%, transparent);
 }
 
-.explorer .explorer-content a { color: #d4d4d4 !important; }
-.explorer .explorer-content a[href*="Semester"] { color: #60a5fa !important; }
-.explorer .explorer-content a[href*="Thermodynamics"] { color: #2EEA6F !important; }
-.explorer .explorer-content a[href*="DEVC"] { color: #2EC4EA !important; }
-.explorer .explorer-content a[href*="BEEE"] { color: #DEDBFF !important; }
-.explorer .explorer-content a[href*="Chemistry"] { color: #EA2E8F !important; }
-.explorer .explorer-content a[href*="GAT"] { color: #EA2E8F !important; }
-.explorer .explorer-content a[href*="Economics"] { color: #83CC5E !important; }
-.explorer .explorer-content a[href*="Environmental"] { color: #EAD92E !important; }
-.explorer .explorer-content a[href*="PPSUC"] { color: #EAD92E !important; }
-.explorer .explorer-content a[href*="IOT"] { color: #2EEAA6 !important; }
-.explorer .explorer-content a[href*="LAB"] { color: #2EC4EA !important; }
-.explorer .explorer-content a[href*="English"] { color: #ddd6fe !important; }
-.explorer .explorer-content a[href*="Archive"] { color: #17B800 !important; }
-.explorer .explorer-content a[href*="University"] { color: #4A90E2 !important; }
-.explorer .explorer-content a[href*="Other"] { color: #786E6E !important; }
+:root[saved-theme="dark"] {
+  --m3-primary: #81a684;
+  --m3-on-primary: #0f1f14;
+  --m3-primary-container: #57886c;
+  --m3-on-primary-container: #e8f3ea;
+  --m3-secondary: #466060;
+  --m3-on-secondary: #dce7e7;
+  --m3-tertiary: #f8c7cc;
+  --m3-on-tertiary: #40262c;
+  --m3-surface: #0e0f19;
+  --m3-surface-container: #151725;
+  --m3-surface-container-high: #1c1f2e;
+  --m3-on-surface: #e5e7eb;
+  --m3-outline: #8b8f9f;
+  --m3-outline-variant: #2d3142;
+  --m3-shadow: rgba(0, 0, 0, 0.35);
+
+  --light: var(--m3-surface);
+  --lightgray: var(--m3-outline-variant);
+  --gray: #8e94a4;
+  --darkgray: var(--m3-on-surface);
+  --dark: #f4f6fa;
+  --secondary: var(--m3-primary);
+  --tertiary: var(--m3-primary);
+  --highlight: color-mix(in srgb, var(--m3-primary) 16%, transparent);
+  --textHighlight: rgba(129, 166, 132, 0.32);
+}
+
+body {
+  background: var(--m3-surface) !important;
+  background-image: none !important;
+  color: var(--m3-on-surface);
+}
+
+.page > #quartz-body .sidebar.left {
+  background: var(--m3-surface-container);
+  border: 1px solid var(--m3-outline-variant);
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px var(--m3-shadow);
+  width: 16.5rem;
+  padding: 1.5rem 1rem 1rem 1rem;
+  margin: 6rem 0 0 0;
+  height: fit-content;
+  max-height: calc(100vh - 7rem);
+  overflow-y: auto;
+}
+
+@media all and (max-width: 800px) {
+  html,
+  body,
+  #quartz-root,
+  #quartz-body {
+    overflow-x: clip;
+  }
+
+  .page > #quartz-body .sidebar.left {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    width: auto;
+    padding: 0;
+    height: unset;
+    max-height: unset;
+    overflow: visible;
+    margin: 0;
+  }
+
+  .page > #quartz-body .sidebar.left .page-title {
+    margin: 0;
+    margin-right: auto;
+  }
+
+  .page > #quartz-body .sidebar.left .page-title a {
+    font-size: 1.88rem;
+    font-weight: 620;
+  }
+
+  .page > #quartz-body .sidebar.left .search {
+    max-width: 9.6rem;
+  }
+
+  .page > #quartz-body .sidebar.left .darkmode {
+    margin-left: 0.15rem;
+  }
+
+  .page .page-header {
+    margin-top: 0.7rem;
+  }
+
+  .breadcrumb-container {
+    margin-bottom: 0.5rem;
+  }
+
+  .breadcrumb-element,
+  .breadcrumb-separator,
+  .breadcrumb-element a {
+    font-size: 0.9rem !important;
+    font-weight: 560;
+  }
+
+  .article-title {
+    font-size: 2.05rem;
+    margin-top: 0.6rem;
+    margin-bottom: 1.1rem;
+    line-height: 1.14;
+  }
+
+  .center article {
+    padding-bottom: 0.25rem;
+  }
+
+  .center article > p {
+    line-height: 1.65;
+    margin: 0.7rem 0 1rem 0;
+  }
+
+  .center article > h2 {
+    font-size: 1.05rem;
+    font-weight: 680;
+    margin: 1.45rem 0 0.55rem 0;
+    letter-spacing: 0.02em;
+  }
+
+  .center article > h2 + p {
+    margin: 0 0 1rem 0;
+    padding: 0.88rem 0.92rem;
+    border-radius: 12px;
+    border: 1px solid color-mix(in srgb, var(--m3-outline-variant) 75%, transparent);
+    background: color-mix(in srgb, var(--m3-surface-container) 75%, transparent);
+  }
+
+  .center article > h2 + p a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.38rem;
+    text-decoration: none !important;
+    font-weight: 620;
+  }
+
+  .center article > h2 + p a:hover {
+    color: var(--m3-primary-container) !important;
+  }
+
+  footer {
+    margin-top: 1.9rem;
+    padding-top: 0.9rem;
+  }
+
+  .explorer.collapsed > .explorer-content {
+    transform: translateX(calc(-100vw - 3rem)) !important;
+    visibility: hidden !important;
+  }
+}
+
+.page-title a {
+  color: var(--m3-on-surface) !important;
+  font-family: "Inter", "Source Sans Pro", sans-serif !important;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.page-title a:hover {
+  color: var(--m3-primary) !important;
+}
+
+.explorer .explorer-content a,
+.explorer .folder-container div > a,
+.explorer .folder-container div > button span,
+.explorer .folder-icon {
+  color: color-mix(in srgb, var(--m3-on-surface) 78%, transparent) !important;
+}
+
+.explorer .explorer-content ul li > a {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  line-height: 1.35rem;
+  transition: color 140ms ease, background-color 140ms ease;
+}
+
+.explorer .explorer-content ul li > a:hover {
+  color: var(--m3-on-surface) !important;
+  background-color: color-mix(in srgb, var(--m3-on-surface) 10%, transparent);
+}
+
+.explorer .explorer-content ul li > a.active {
+  color: var(--m3-on-primary-container) !important;
+  background-color: var(--m3-primary-container);
+}
+
+.explorer .folder-outer > ul {
+  border-left-color: var(--m3-outline-variant);
+}
+
+.explorer-content {
+  margin-top: 0.65rem;
+}
+
+.article-title {
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin: 1.65rem 0 0.5rem 0;
+}
+
+.breadcrumb-element,
+.breadcrumb-separator,
+.breadcrumb-element a {
+  color: color-mix(in srgb, var(--m3-on-surface) 70%, transparent) !important;
+}
+
+.breadcrumb-element a:hover {
+  color: var(--m3-primary) !important;
+}
 
 article a {
-  color: #e07b39 !important;
+  color: var(--m3-primary) !important;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--m3-primary) 42%, transparent);
+  text-underline-offset: 0.16em;
 }
 
+article a:hover {
+  color: var(--m3-primary-container) !important;
+  text-decoration-color: currentColor;
+}
 
-.section a[href*="Exam-Prep"],
-.section a[href*="Exam%20Prep"],
-.section a[href*="Exam-prep"],
-.section a[href*="Exam%20prep"] {
+article p,
+article li {
+  color: color-mix(in srgb, var(--m3-on-surface) 78%, transparent);
+}
+
+article h1,
+article h2,
+article h3 {
+  color: var(--m3-on-surface);
+  letter-spacing: -0.01em;
+}
+
+article h2 {
+  font-size: 1.55rem;
+  font-weight: 650;
+}
+
+article h3 {
+  font-size: 1.12rem;
+  font-weight: 640;
+}
+
+.search > input {
+  border-radius: 0.85rem;
+  border-color: var(--m3-outline) !important;
+  background-color: var(--m3-surface-container-high);
+  color: var(--m3-on-surface);
+}
+
+.search > input:focus {
+  border-color: var(--m3-primary) !important;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--m3-primary) 24%, transparent);
+}
+
+hr {
+  opacity: 1;
+  border-color: var(--m3-outline-variant);
+}
+
+.center,
+.page-header,
+article {
+  background-image: none !important;
+}
+
+.page .page-header {
+  margin-top: 0.35rem;
+}
+
+.explorer .explorer-content ul li > a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.page-listing .section {
+  grid-template-columns: 1fr !important;
+}
+
+.page-listing .section .desc {
+  min-width: 0;
+}
+
+.page-listing .section .desc h3 {
+  margin: 0;
+}
+
+.page-listing .section .desc h3 > a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media all and (min-width: 801px) {
+  .page-listing .section .desc h3 > a {
+    max-width: 100%;
+  }
+}
+
+/* M3-style emphasis for Exam prep links */
+.page-listing a[href*="Exam-prep" i],
+.page-listing a[href*="Exam%20prep" i],
+.explorer a[href*="Exam-prep" i],
+.explorer a[href*="Exam%20prep" i] {
+  position: relative;
+  display: inline-flex !important;
+  width: fit-content !important;
+  max-width: 100%;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.1rem 0.62rem !important;
+  border-radius: 999px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none !important;
+  color: var(--m3-on-primary-container) !important;
+  background:
+    linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--m3-primary-container) 84%, transparent),
+      color-mix(in srgb, var(--m3-secondary) 75%, transparent)
+    );
+  border: 1px solid color-mix(in srgb, var(--m3-primary) 50%, transparent);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--m3-primary) 22%, transparent),
+    0 4px 14px color-mix(in srgb, var(--m3-primary) 18%, transparent);
+  animation: m3ExamPulse 2.7s ease-in-out infinite;
+}
+
+.page-listing a[href*="Exam-prep" i]::before,
+.page-listing a[href*="Exam%20prep" i]::before,
+.explorer a[href*="Exam-prep" i]::before,
+.explorer a[href*="Exam%20prep" i]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
   background: linear-gradient(
-    90deg,
-    #00c2ff,
-    #33ff8c,
-    #ffc640,
-    #e54cff,
-    #00c2ff,
-    #33ff8c
+    115deg,
+    transparent 0%,
+    color-mix(in srgb, white 40%, transparent) 45%,
+    transparent 70%
   );
-  background-size: 400% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: auroraText 8s linear infinite;
-  font-weight: 700;
+  transform: translateX(-140%);
+  animation: m3ExamSweep 3.3s ease-in-out infinite;
 }
 
-@keyframes auroraText {
-  0%   { background-position: 0% center; }
-  100% { background-position: 400% center; }
+@keyframes m3ExamSweep {
+  0%,
+  35% {
+    transform: translateX(-140%);
+  }
+  65%,
+  100% {
+    transform: translateX(140%);
+  }
 }
 
-@keyframes aurora-spin {
-  0%   { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+@keyframes m3ExamPulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 1px color-mix(in srgb, var(--m3-primary) 22%, transparent),
+      0 4px 14px color-mix(in srgb, var(--m3-primary) 14%, transparent);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px color-mix(in srgb, var(--m3-primary) 35%, transparent),
+      0 7px 18px color-mix(in srgb, var(--m3-primary) 24%, transparent);
+  }
 }
 
-@keyframes shine {
-  0% { background-position: 0% center; }
-  100% { background-position: 400% center; }
-}
+@media all and (max-width: 800px) {
+  .explorer a[href*="Exam-prep" i],
+  .explorer a[href*="Exam%20prep" i] {
+    display: block !important;
+    width: auto !important;
+    max-width: 100%;
+    padding: 0.12rem 0.55rem !important;
+    border: 0 !important;
+    border-radius: 999px;
+    background: transparent !important;
+    color: color-mix(in srgb, var(--m3-on-surface) 78%, transparent) !important;
+    box-shadow: none !important;
+    animation: none !important;
+  }
 
-
-@keyframes shine {
-  0% { background-position: 0% center; }
-  100% { background-position: 300% center; }
+  .explorer a[href*="Exam-prep" i]::before,
+  .explorer a[href*="Exam%20prep" i]::before {
+    content: none !important;
+    animation: none !important;
+  }
 }

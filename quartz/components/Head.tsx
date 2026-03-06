@@ -115,7 +115,7 @@ export default (() => {
               const text = link.textContent.trim();
               const match = text.match(/^(\\d+)\\s+(.+)$/);
               if (match) {
-                link.innerHTML = '<span style="-webkit-text-fill-color: white; color: white;">' + match[1] + '</span> <span>' + match[2] + '</span>';
+                link.innerHTML = '<span style="-webkit-text-fill-color: var(--dark); color: var(--dark);">' + match[1] + '</span> <span>' + match[2] + '</span>';
               }
             });
           }

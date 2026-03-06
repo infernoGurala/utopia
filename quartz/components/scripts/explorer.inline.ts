@@ -5,6 +5,7 @@ import { ContentDetails } from "../../plugins/emitters/contentIndex"
 type MaybeHTMLElement = HTMLElement | undefined
 
 interface ParsedOptions {
+  explorerDefaultState: "collapsed" | "open"
   folderClickBehavior: "collapse" | "link"
   folderDefaultState: "collapsed" | "open"
   useSavedState: boolean
@@ -160,6 +161,7 @@ async function setupExplorer(currentSlug: FullSlug) {
   for (const explorer of allExplorers) {
     const dataFns = JSON.parse(explorer.dataset.dataFns || "{}")
     const opts: ParsedOptions = {
+      explorerDefaultState: (explorer.dataset.explorerCollapsed || "open") as "collapsed" | "open",
       folderClickBehavior: (explorer.dataset.behavior || "collapse") as "collapse" | "link",
       folderDefaultState: (explorer.dataset.collapsed || "collapsed") as "collapsed" | "open",
       useSavedState: explorer.dataset.savestate === "true",
@@ -258,6 +260,15 @@ async function setupExplorer(currentSlug: FullSlug) {
     for (const icon of folderIcons) {
       icon.addEventListener("click", toggleFolder)
       window.addCleanup(() => icon.removeEventListener("click", toggleFolder))
+    }
+
+    // Apply explorer open/collapsed default state for desktop/tablet.
+    if (opts.explorerDefaultState === "collapsed") {
+      explorer.classList.add("collapsed")
+      explorer.setAttribute("aria-expanded", "false")
+    } else {
+      explorer.classList.remove("collapsed")
+      explorer.setAttribute("aria-expanded", "true")
     }
   }
 }

@@ -13,6 +13,7 @@ type OrderEntries = "sort" | "filter" | "map"
 
 export interface Options {
   title?: string
+  explorerDefaultState: "collapsed" | "open"
   folderDefaultState: "collapsed" | "open"
   folderClickBehavior: "collapse" | "link"
   useSavedState: boolean
@@ -23,6 +24,7 @@ export interface Options {
 }
 
 const defaultOptions: Options = {
+  explorerDefaultState: "open",
   folderDefaultState: "open",
   folderClickBehavior: "link",
   useSavedState: true,
@@ -65,9 +67,15 @@ export default ((userOpts?: Partial<Options>) => {
 
     return (
       <div
-        class={classNames(displayClass, "explorer")}
+        class={classNames(
+          displayClass,
+          "explorer",
+          opts.explorerDefaultState === "collapsed" ? "collapsed" : "",
+        )}
+        aria-expanded={opts.explorerDefaultState === "collapsed" ? "false" : "true"}
         data-behavior={opts.folderClickBehavior}
         data-collapsed={opts.folderDefaultState}
+        data-explorer-collapsed={opts.explorerDefaultState}
         data-savestate={opts.useSavedState}
         data-data-fns={JSON.stringify({
           order: opts.order,

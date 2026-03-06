@@ -17,9 +17,11 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
     Component.Darkmode(),
     Component.Explorer({
+      explorerDefaultState: "collapsed",
+      folderDefaultState: "collapsed",
+      useSavedState: false,
       filterFn: (node) => {
         node.displayName = node.displayName.replace(/^\d+-/, "")
         return true
@@ -37,9 +39,11 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
+      explorerDefaultState: "collapsed",
+      folderDefaultState: "collapsed",
+      useSavedState: false,
       filterFn: (node) => {
         node.displayName = node.displayName.replace(/^\d+-/, "")
         return true
