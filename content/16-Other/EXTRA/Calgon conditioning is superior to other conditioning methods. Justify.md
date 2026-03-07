@@ -1,5 +1,5 @@
 
-> [!tip] #### What is Calgon?
+> [!tip] What is Calgon?
 Calgon is a **water softening chemical** whose chemical name is **Sodium Hexametaphosphate** — (NaPO₃)₆
 
 
