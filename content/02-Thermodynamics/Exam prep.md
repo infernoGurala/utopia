@@ -46,7 +46,7 @@ m3
 to a pressure of 0.6 bar according to a law, p = Cv2 where C is a 
 constant. Calculate the work done by the fluid on the piston.
 
-b) Discuss the limitations of the First Law of Thermodynamics. 
+  b) Discuss the limitations of the First Law of Thermodynamics. 
 
 8. Air flows steadily at the rate of 0.5 kg/s through an air 
 compressor, entering at 7m/s velocity, 100 kPa pressure, and 0.95 
@@ -57,7 +57,7 @@ internal energy of the air leaving is 90 kJ/kg greater than that of
 the air entering. Cooling water in the compressor jackets absorbs 
 heat from the air at the rate of 58 kW. 
 
-(a) Compute the rate of shaft work input to the air in kW. 
+  (a) Compute the rate of shaft work input to the air in kW. 
 
-(b) Find the ratio of the inlet pipe diameter to outlet pipe 
+  (b) Find the ratio of the inlet pipe diameter to outlet pipe 
 diameter.
