@@ -28,7 +28,7 @@ Enthalpy, and iv) Specific heat at constant pressure.
 impossible according to the First Law of Thermodynamics, 
 explain with details.
 
-b) During a certain process, the specific heat capacity of a system is 
+   b) During a certain process, the specific heat capacity of a system is 
 given by C = (0.4 + 0.004 T) kJ/kg°C. Find the heat transferred 
 and mean specific heat of gas, when the temperature changes from 
 25°C to 125°C. The mass of the system is 5 kg.
