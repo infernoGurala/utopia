@@ -16,18 +16,19 @@
 1 State and explain the First Law of Thermodynamics for a closed 
 system undergoing a cyclic process.
 
-2 Define the following terms i) Joule’s Experiment, ii) Energy in 
+2 Define the following terms i) Joule’s Experiment,
+ ii) Energy in 
 State and iii) Energy in Transition. 
 
 
 3 Explain the following terms i) Point function, ii) Path function, iii) 
 Enthalpy, and iv) Specific heat at constant pressure.
 
-4 a Explain about PMM-I. Why such a machine is considered 
+4 a) Explain about PMM-I. Why such a machine is considered 
 impossible according to the First Law of Thermodynamics, 
 explain with details.
 
-b During a certain process, the specific heat capacity of a system is 
+b) During a certain process, the specific heat capacity of a system is 
 given by C = (0.4 + 0.004 T) kJ/kg°C. Find the heat transferred 
 and mean specific heat of gas, when the temperature changes from 
 25°C to 125°C. The mass of the system is 5 kg.
@@ -39,13 +40,13 @@ assumptions.
 such as nozzles, diffusers, turbines, compressors, and throttling 
 along with its assumptions.
 
-7 a A fluid at a pressure of 3 bar, and with specific volume of 0.18 
+7 a) A fluid at a pressure of 3 bar, and with specific volume of 0.18 
 m3
 /kg, contained in a cylinder behind a piston expands reversibly 
 to a pressure of 0.6 bar according to a law, p = Cv2 where C is a 
 constant. Calculate the work done by the fluid on the piston.
 
-b Discuss the limitations of the First Law of Thermodynamics. 
+b) Discuss the limitations of the First Law of Thermodynamics. 
 
 8 Air flows steadily at the rate of 0.5 kg/s through an air 
 compressor, entering at 7m/s velocity, 100 kPa pressure, and 0.95 
