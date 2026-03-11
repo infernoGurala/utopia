@@ -31,4 +31,4 @@ cssclasses: [shine-title]
 9. Write a short note on loop control statements.
 10. Write a C program to find factorial of a given number.
 
-#### [ANSWERS U-2](https://drive.google.com/file/d/1qVufFOlG8Fku0aVrT4z-RFL-di56fNMr/view?usp=drive_link)
+#### [ANSWERS U-2](https://drive.google.com/file/d/1171xE80aPXfTCsLzLIRPnzUPK24jRgx-/view?usp=drivesdk)
