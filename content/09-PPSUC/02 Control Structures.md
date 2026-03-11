@@ -4,13 +4,14 @@
 
 ---
 
-### Assignment 
+### Answers
 
-click 
+[PDF Doc](https://drive.google.com/file/d/1171xE80aPXfTCsLzLIRPnzUPK24jRgx-/view?usp=drivesdk)
+
 
 ---
 
-### Mid questions 
+### Questions 
 
 1) Explain simple if, if-else with syntax,flow chart and suitable example program.
 2) Write the syntax of switch case. Write a c program to make    acalculator using switch case.
