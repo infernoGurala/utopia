@@ -1,4 +1,5 @@
-## Linear ODEs
+# UNIT 01
+### Linear ODEs
 
 $$\frac{dy}{dx} + \frac{y}{x \log x} = \frac{\sin 2x}{\log x}$$
 
@@ -8,13 +9,13 @@ $$dr + (2r\cot\theta + \sin 2\theta)\,d\theta = 0$$
 
 ---
 
-## Linear ODE (x as function of y)
+### Linear ODE (x as function of y)
 
 $$(1 + y^2)\,dx = (\tan^{-1}y - x)\,dy$$
 
 ---
 
-## Exact ODEs
+### Exact ODEs
 
 $$(2xy + y - \tan y)\,dx + (x^2 - x\tan^2 y + \sec^2 y)\,dy = 0$$
 
@@ -32,13 +33,13 @@ $$x^4\frac{dy}{dx} + x^3y + \csc(xy) = 0$$
 
 ---
 
-## Reducible / Special Form
+### Reducible / Special Form
 
 $$\frac{dy}{dx} = \frac{x^2 + y^2 + 1}{2xy}$$
 
 ---
 
-## Orthogonal Trajectories
+### Orthogonal Trajectories
 
 Find orthogonal trajectories of family of circles:
 $$x^2 + y^2 + 2\lambda x + c = 0 \quad (\lambda \text{ is a parameter})$$
@@ -57,7 +58,7 @@ Find orthogonal trajectories of:
 
 ---
 
-## R-L Circuit Applications
+### R-L Circuit Applications
 
 Model R-L circuit, write its Differential Equation and find the current $i$ at any time $t$ in the circuit.
 
