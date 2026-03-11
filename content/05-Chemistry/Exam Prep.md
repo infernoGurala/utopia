@@ -1,7 +1,7 @@
 ## UNIT-1
 1. Write the disadvantages of hard water in various fields.
 2. Explain the causes, effects, and prevention methods of scales and sludges.
-3. Colgan conditioning is superior to other conditioning methods. Justify?
+3. [[calgon|Calgon conditioning is superior to other conditioning methods. Justify]]
 4. Evaluate the importance of maintaining ICMR and WHO specifications for potable water for public health protection.
 5. Explain the working principles of Candle filtration and Activated carbon filtration. Compare their efficiency in removing physical, chemical impurities.
 6. Discuss the principle, mechanism, and applications of disinfection methods.
