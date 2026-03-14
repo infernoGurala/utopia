@@ -24,7 +24,8 @@ $$(2xy + y - \tan y)\,dx + (x^2 - x\tan^2 y + \sec^2 y)\,dy = 0$$
 $$(y^2 e^{xy^2} + 4x^3)\,dx + (2xy\,e^{xy^2} - 3y^2)\,dy = 0$$
 
 $$\frac{dy}{dx} + \frac{y\cos x + \sin y + y}{\sin x + x\cos y + x} = 0$$
-
+---
+### Non-Exact ODEs
 $$(x^2y - 2xy^2)\,dx - (x^3 - 3x^2y)\,dy = 0$$
 
 $$y(xy\sin xy + \cos xy)\,dx + x(xy\sin xy - \cos xy)\,dy = 0$$
