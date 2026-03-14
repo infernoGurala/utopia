@@ -1,4 +1,4 @@
-[# Mid 1 questions](https://docs.google.com/document/d/16C48sLXGM7NMoGCZTHehd9HM8mhasBJu/edit?usp=drivesdk&ouid=117269870135972765951&rtpof=true&sd=true)
+[Mid 1 questions](https://docs.google.com/document/d/16C48sLXGM7NMoGCZTHehd9HM8mhasBJu/edit?usp=drivesdk&ouid=117269870135972765951&rtpof=true&sd=true)
 
 ---
 
