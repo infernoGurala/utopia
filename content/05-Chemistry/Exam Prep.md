@@ -1,3 +1,5 @@
+[Mid 1 questions](https://drive.google.com/file/d/1bccdkeqSFG3aBu3f5f-US-t7xp_jLQcp/view?usp=drivesdk)
+
 ## UNIT-1
 1. Write the disadvantages of hard water in various fields.
 2. Explain the causes, effects, and prevention methods of scales and sludges.
