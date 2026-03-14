@@ -5,8 +5,8 @@
 ---
 ### ASSIGNMENTS
 
-[PDF Document](https://drive.google.com/file/d/1ZvkZSz8Olzn7DCIhX7WAKyCbfY8vFNvi/view?usp=drivesdk)
+[Questions](https://drive.google.com/file/d/1ZvkZSz8Olzn7DCIhX7WAKyCbfY8vFNvi/view?usp=drivesdk)
 
-
+[Answers](https://drive.google.com/file/d/1LMbOVXu322CvcE_PBm6SxjAhMr5nnk2Z/view?usp=drive_link)
 
 
