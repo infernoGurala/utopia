@@ -1,23 +1,39 @@
-A **transformer** is a static electrical machine used to **transfer electrical energy from one circuit to another through electromagnetic induction** without changing the frequency.
+# Transformer — Role in Power System & Operation
 
-### Role of Transformer in Power System
+## **Definition**
+A **transformer** is a *static electrical machine* that transfers electrical energy from one circuit to another through **electromagnetic induction** without changing the **frequency**. It operates only with **AC supply**.
 
-Transformers are essential in power systems because they **change voltage levels efficiently**.
+---
 
-Electric power generated in power plants is usually around **11 kV**. For long-distance transmission, the voltage is **stepped up** to very high values like **132 kV or 220 kV** using a transformer. High voltage reduces current, which **minimizes power loss in transmission lines**.
+## **Role in Electrical Power System**
 
-Near cities and homes, another transformer **steps down the voltage** to safe levels such as **230 V** for domestic use. Thus, transformers make **power transmission economical and safe**.
+Transformers are used to **change voltage levels** in power systems.
 
-### Operation of Transformer
+Electricity generated in power plants is about **11 kV**. A **step-up transformer** increases this voltage to **132 kV or 220 kV** for long-distance transmission.
 
-A transformer works on the principle of **mutual electromagnetic induction**.
+> **Higher voltage → lower current → lower transmission loss**
 
-When an **AC supply** is applied to the **primary winding**, it produces a **changing magnetic flux** in the iron core. This changing magnetic field links with the **secondary winding** and induces an **electromotive force (EMF)** in it.
+Near consumers, a **step-down transformer** reduces voltage to **230 V**, which is suitable for homes and industries.
 
-The voltage transformation depends on the number of turns in the windings.
+Thus transformers make power transmission **efficient**, **economical**, and **safe**.
 
-\frac{V_1}{V_2}=\frac{N_1}{N_2}
+---
 
-If the secondary turns are greater, it is a **step-up transformer**; if fewer, it is a **step-down transformer**.
+## **Operation (Working Principle)**
 
-A transformer mainly consists of **primary winding, secondary winding, and laminated iron core**.
+A transformer works on the principle of *mutual electromagnetic induction*.
+
+1. **AC supply** is applied to the **primary winding**.  
+2. It produces a **changing magnetic flux** in the **iron core**.  
+3. This changing flux links the **secondary winding**.  
+4. An **EMF is induced** in the secondary coil.
+
+The voltage depends on the **number of turns** in the windings.
+
+$$
+\frac{V_1}{V_2} = \frac{N_1}{N_2}
+$$
+
+A transformer mainly consists of **primary winding**, **secondary winding**, and **laminated iron core**.
+
+![[Pasted image 20260315182104.png]]
