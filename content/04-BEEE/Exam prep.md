@@ -12,6 +12,7 @@
 
 **Q2a** — Verify KCL for the given circuit. `4M`
 ![[Pasted image 20260315112141.png]]
+
 **Q2b** — Define KCL and KVL. Explain with a simple numerical. `4M`
 
 ---
