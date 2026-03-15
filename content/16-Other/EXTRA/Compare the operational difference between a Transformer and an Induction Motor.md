@@ -1,4 +1,3 @@
- Compare the operational difference between a Transformer and an Induction Motor — 4M</summary>
 
 ## Transformer vs Induction Motor
 
