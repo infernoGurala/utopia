@@ -1,118 +1,78 @@
 ## Classification of Measuring Instruments
 
-Measuring instruments are classified based on their working principle and the type of quantity they measure (AC, DC, or both).
+Instruments are classified based on their **working principle** and whether they measure **AC, DC or both**.
 
 ---
 
-### Classification Chart
+### 1. PMMC (Permanent Magnet Moving Coil)
 
-| Type | Works on | Measures | Examples |
-|------|----------|----------|---------|
-| **Permanent Magnet Moving Coil (PMMC)** | DC only | Current, Voltage | Galvanometer, DC Ammeter |
-| **Moving Iron (MI)** | AC & DC | Current, Voltage | AC Ammeter, AC Voltmeter |
-| **Electrodynamometer** | AC & DC | Power, Current | Wattmeter |
-| **Rectifier Type** | AC (converted to DC) | AC Voltage, Current | AC Voltmeter with rectifier |
-| **Thermocouple** | AC & DC | High frequency current | RF Ammeters |
-| **Induction Type** | AC only | Power, Energy | Energy meter (kWh meter) |
-
----
-
-### 1. Permanent Magnet Moving Coil (PMMC)
-
-**Principle:** When a current-carrying coil is placed in the field of a permanent magnet, it experiences a deflecting torque.
+**Principle:** Current-carrying coil in permanent magnet field produces deflecting torque.
 
 $$\tau = BANI$$
 
-Where:
-- B = Flux density
-- A = Area of coil
-- N = Number of turns
-- I = Current
-
-**Works on:** DC only  
-**Cannot measure AC** — the pointer oscillates and reads zero on AC due to reversal of torque.
-
-**Examples:** Galvanometer, DC Ammeter, DC Voltmeter
+- Works on **DC only**
+- Examples: DC Ammeter, DC Voltmeter, Galvanometer
 
 ---
 
-### 2. Moving Iron (MI) Instrument
+### 2. Moving Iron (MI)
 
-**Principle:** A piece of soft iron is attracted or repelled by a magnetic field produced by current flowing through a coil.
-
-Two types:
-- **Attraction type** — iron piece is attracted into the coil
-- **Repulsion type** — two iron pieces (one fixed, one moving) repel each other
+**Principle:** Soft iron piece is attracted or repelled by magnetic field of a coil.
 
 $$\tau \propto I^2$$
 
-**Works on:** AC & DC both  
-**Reads RMS value** of AC quantities.
-
-**Examples:** AC Ammeter, AC Voltmeter
+- Works on **AC & DC both**
+- Reads **RMS value**
+- Examples: AC Ammeter, AC Voltmeter
 
 ---
 
-### 3. Electrodynamometer (Dynamometer Type)
+### 3. Electrodynamometer
 
-**Principle:** The interaction between the magnetic fields of a fixed coil and a moving coil produces a deflecting torque.
+**Principle:** Interaction between fixed coil and moving coil magnetic fields.
 
 $$\tau \propto I_1 \times I_2 \times \cos\phi$$
 
-**Works on:** AC & DC both  
-**Used for:** Measuring power (Wattmeter), power factor
-
-**Examples:** Wattmeter, Power Factor meter
+- Works on **AC & DC both**
+- Examples: Wattmeter, Power Factor meter
 
 ---
 
-### 4. Rectifier Type Instrument
+### 4. Rectifier Type
 
-**Principle:** AC is first converted to DC using a rectifier (diode), then measured by a PMMC instrument.
+**Principle:** AC converted to DC by rectifier, then measured by PMMC.
 
-$$V_{DC} = 0.637 \times V_m \quad \text{(half wave)}$$
-$$V_{DC} = 0.637 \times V_m \quad \text{(full wave)}$$
-
-**Works on:** AC only (after rectification)  
-**Reads:** Average value but scale calibrated in RMS
-
-**Examples:** AC Voltmeter, AC Ammeter with rectifier
+- Works on **AC only**
+- Examples: AC Voltmeter with rectifier
 
 ---
 
-### 5. Thermocouple Instrument
+### 5. Thermocouple
 
-**Principle:** Current heats a wire, and the heat produces an EMF via thermocouple effect (Seebeck effect). This EMF deflects a PMMC meter.
+**Principle:** Current heats a wire → heat produces EMF (Seebeck effect) → deflects PMMC.
 
-**Works on:** AC & DC both  
-**Best for:** High frequency (RF) measurements
-
-**Examples:** RF Ammeter, high frequency measuring instruments
-
----
-
-### 6. Induction Type Instrument
-
-**Principle:** Interaction between alternating magnetic flux and eddy currents induced in a aluminium disc produces a torque that rotates the disc.
-
-**Works on:** AC only  
-**Cannot measure DC** — no eddy currents with steady DC
-
-**Examples:** Energy meter (kWh meter), induction type wattmeter
+- Works on **AC & DC both**
+- Best for **high frequency** measurements
+- Examples: RF Ammeter
 
 ---
 
-### Summary Table
+### 6. Induction Type
 
-| Instrument | AC | DC | Measures | Reads |
-|------------|----|----|----------|-------|
-| PMMC | ❌ | ✅ | I, V | Mean |
-| Moving Iron | ✅ | ✅ | I, V | RMS |
-| Electrodynamometer | ✅ | ✅ | P, I, V | RMS |
-| Rectifier | ✅ | ❌ | I, V | Avg (RMS scale) |
-| Thermocouple | ✅ | ✅ | I | RMS |
-| Induction | ✅ | ❌ | Energy | — |
+**Principle:** Alternating flux induces eddy currents in aluminium disc → produces torque.
+
+- Works on **AC only**
+- Examples: Energy meter (kWh)
 
 ---
 
-> 💡 **Key Point:** Moving Iron and Electrodynamometer instruments work on both AC and DC, making them the most versatile for general measurements.
+### Quick Summary
+
+| Instrument | AC | DC | Reads |
+|------------|----|----|-------|
+| PMMC | ❌ | ✅ | Mean |
+| Moving Iron | ✅ | ✅ | RMS |
+| Electrodynamometer | ✅ | ✅ | RMS |
+| Rectifier | ✅ | ❌ | Avg |
+| Thermocouple | ✅ | ✅ | RMS |
+| Induction | ✅ | ❌ | — |
