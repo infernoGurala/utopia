@@ -23,7 +23,7 @@
 
 **Q1a** — What is an Electrical Machine? Briefly explain the conversion of energy from one form to another with its principle. `4M`
 
-**Q1b** — [[Compare the operational difference between a Transformer and an Induction Motor]] `4M`
+**Q1b** — [[Compare the operational difference between a Transformer and an Induction Motor]](Compare the operational difference between a Transformer and an Induction Motor.md) `4M`
 
 ---
 
