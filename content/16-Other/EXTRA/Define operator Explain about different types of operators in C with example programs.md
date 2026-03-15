@@ -14,7 +14,7 @@ c = a + b;
 
 ## Types of Operators 
 
-#### 1. Arithmetic Operators
+### 1. Arithmetic Operators
 
 Used for mathematical calculations.
 
