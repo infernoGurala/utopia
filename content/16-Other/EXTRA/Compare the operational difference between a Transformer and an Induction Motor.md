@@ -1,5 +1,4 @@
-<details>
-<summary>⚡ Compare the operational difference between a Transformer and an Induction Motor — 4M</summary>
+ Compare the operational difference between a Transformer and an Induction Motor — 4M</summary>
 
 ## Transformer vs Induction Motor
 
@@ -38,5 +37,3 @@
 **4. Working Principle**
 - Transformer works on **Faraday's Law of Mutual Induction**.
 - Induction Motor works on **rotating magnetic field (RMF)** created by 3-phase AC supply.
-
-</details>
