@@ -20,9 +20,9 @@ cssclasses: [shine-title]
 #### [ANSWERS U-1](https://drive.google.com/file/d/1qVufFOlG8Fku0aVrT4z-RFL-di56fNMr/view?usp=drive_link)
 
 ## Unit -II
-1. Explain simple if, if-else with syntax,flow chart and suitable example program.
-2. Write the syntax of switch case. Write a c program to make a calculator using switch case.
-3. Difference between while and do while loop with example.
+1. [[Explain simple if, if-else with syntax,flow chart and suitable example program.]]
+2. [[Write the syntax of switch case. Write a c program to make a calculator using switch case.]]
+3. [[Difference between while and do while loop with example.]]
 4. Write a C program to find sum of n natural numbers.
 5. Write a C program to find given number is prime or not
 6. Explain nested for loop with syntax and suitable example program.
