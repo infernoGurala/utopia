@@ -39,7 +39,7 @@
 
 ---
 
-**Q4a** — What is the role of a Transformer in an electrical power system? Explain the operation of a transformer with a neat diagram. `4M`
+**Q4a** — [[What is the role of a Transformer in an electrical power system? Explain the operation of a transformer with a neat diagram]]. `4M`
 
 **Q4b** — How do you find the direction of mechanical and electrical output of machines? Explain the principle of each. `4M`
 
