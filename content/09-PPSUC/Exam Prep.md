@@ -5,17 +5,17 @@ cssclasses: [shine-title]
 # MID QUESTIONS
 
 ## Unit -I
-1. Explain Structure of C with example program.
-2. Explain Unary operator and Bit wise operator with example program.
-3. Define Flow chart.Explain different symbols used in flow chart with example.
-4. Write a C program to find biggest of 3 numbers using ternary operator.
-5. What is type conversion? Explain different types of conversions with examples.
-6. Define datatype. Explain primitive data types with suitable example.
-7. Define algorithm.Explain characteristics of algorithm.
-8. Define Constant.Explain types of defining constants with example program.
-9. Write a C program to find square root of a given number.
-10. Write a short notes on identifiers, keywords and variables.
-11. Write about basic input and output functions.
+1. [[What is an algorithm and its characteristics.]]
+2. [[Define flowchart. Explain different symbols used in flowcharts with suitable examples.]]
+3. [[Define Datatype Explain Primitive Data Types in C with Suitable Examples]]
+4. [[Define operator Explain about different types of operators in C with example programs]]
+5. [[Describe structure of C with an example program.]]
+6. [[Write about basic input and output functions in C]]
+7. [[Write a short notes on identifiers, keyword, variables and constants.]]
+8. What is type casting and conversion? Explain different types of conversions with examples.
+9. Explain Unary operator and Bit wise operator with example program.
+10. [[Define Constant.Explain types of defining constants with example program.]]
+11. Write a C program to find square root of a given number.
 12. Write a C program to find average of 5 subjects.
 #### [ANSWERS U-1](https://drive.google.com/file/d/1qVufFOlG8Fku0aVrT4z-RFL-di56fNMr/view?usp=drive_link)
 
