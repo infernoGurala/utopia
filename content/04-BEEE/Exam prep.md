@@ -27,7 +27,7 @@
 
 ---
 
-**Q2a** — Classify different types of measuring instruments used to measure AC and DC quantities with their basic principles. `4M`
+**Q2a** — [[Classify different types of measuring instruments used to measure AC and DC quantities with their basic principles.]] `4M`
 
 **Q2b** — Classify different types of resistors. How is high resistance measured? Explain with a neat sketch. `4M`
 
