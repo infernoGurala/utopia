@@ -21,13 +21,13 @@
 
 ## Unit 2
 
-**Q1a** — What is an Electrical Machine? Briefly explain the conversion of energy from one form to another with its principle. `4M`
+**Q1a** — [[What is an Electrical Machine Briefly explain the conversion of energy from one form to another with its principle]] `4M` ⭐️
 
 **Q1b** — [[Compare the operational difference between a Transformer and an Induction Motor]] `4M`
 
 ---
 
-**Q2a** — [[Classify different types of measuring instruments used to measure AC and DC quantities with their basic principles]] `4M`
+**Q2a** — [[Classify different types of measuring instruments used to measure AC and DC quantities with their basic principles]] `4M` ⭐️,
 
 **Q2b** — Classify different types of resistors. How is high resistance measured? Explain with a neat sketch. `4M`
 
@@ -39,7 +39,7 @@
 
 ---
 
-**Q4a** — [[What is the role of a Transformer in an electrical power system? Explain the operation of a transformer with a neat diagram]]. `4M`
+**Q4a** — [[What is the role of a Transformer in an electrical power system? Explain the operation of a transformer with a neat diagram]]. `4M` ⭐️
 
 **Q4b** — How do you find the direction of mechanical and electrical output of machines? Explain the principle of each. `4M`
 
@@ -51,6 +51,6 @@
 
 ---
 
-**Q6a** — Draw a neat sketch of a PMMC instrument and explain its operation. `4M`
+**Q6a** — [[Draw a neat sketch of a PMMC instrument and explain its operation]] `4M` ⭐️
 
 **Q6b** — Compare different types of MI instruments and explain their principles. `4M`
