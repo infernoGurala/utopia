@@ -1,4 +1,3 @@
-
 ## Transformer vs Induction Motor
 
 | Parameter | Transformer | Induction Motor |
