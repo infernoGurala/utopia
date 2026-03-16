@@ -9,7 +9,7 @@
 ---
 ### ASSIGNMENTS
 
-[(Assignment-num)]
+Assignment-num
 
 
 
