@@ -21,7 +21,7 @@ Algorithm to find the sum of two numbers:
 4. Display `SUM`
 5. Stop
 
-## Mermaid Diagram
+## example 
 
 ```mermaid
 flowchart TD

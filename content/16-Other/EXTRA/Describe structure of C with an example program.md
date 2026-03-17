@@ -36,7 +36,7 @@ int main() {
 - `main()`: starting point of execution.
 - User-defined functions: additional functions written by the programmer.
 
-## Mermaid Overview
+## Overview
 
 ```mermaid
 flowchart TD

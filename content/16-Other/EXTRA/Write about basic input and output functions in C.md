@@ -4,14 +4,10 @@ Input and output functions are used to read data from the user and display resul
 
 ## Common Input/Output Functions
 
-| Function | Purpose |
-| --- | --- |
-| `printf()` | Displays output |
-| `scanf()` | Reads formatted input |
-| `getchar()` | Reads a single character |
-| `putchar()` | Displays a single character |
-| `gets()` | Reads a string (older, unsafe) |
-| `puts()` | Displays a string |
+| Function    | Purpose                        |
+| ----------- | ------------------------------ |
+| `printf()`  | Displays output                |
+| `scanf()`   | Reads formatted input          |
 
 ## Example Program
 
