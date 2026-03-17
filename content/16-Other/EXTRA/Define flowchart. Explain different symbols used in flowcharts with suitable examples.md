@@ -1,26 +1,25 @@
 A flow chart is nothing but the graphical/pictorial representation of an algorithm is called a flowchart
 
-| Symbol (Shape)                      | Name                        | Purpose                                    |
-| ----------------------------------- | --------------------------- | ------------------------------------------ |
-| ⬭                                   | Oval                        | Indicates Start/Stop                       |
-| ▱                                   | Parallelogram               | Indicates I/P & O/P                        |
-| ▭                                   | Rectangle                   | Used for Processing                        |
-| ◇                                   | Diamond Symbol              | Indicates Decision Making                  |
-| ↓ → ↑                               | Arrow Symbols               | Indicates flow of execution of statements  |
-| Draw the diagram,as in image below. | Onpage Reference            | Continuation of flowchart on the same page |
-| Draw the diagram,as in image below. | Off Page Reference          | Continuation of flowchart on another page  |
-| Draw the diagram,as in image below. | Double Side Ended Rectangle | Indicates a Subroutine                     |
+| Symbol (Shape)                                                 | Name                        | Purpose                                    |
+| -------------------------------------------------------------- | --------------------------- | ------------------------------------------ |
+| ⬭                                                              | Oval                        | Indicates Start/Stop                       |
+| ▱                                                              | Parallelogram               | Indicates I/P & O/P                        |
+| ▭                                                              | Rectangle                   | Used for Processing                        |
+| ◇                                                              | Diamond Symbol              | Indicates Decision Making                  |
+| ↓ → ↑                                                          | Arrow Symbols               | Indicates flow of execution of statements  |
+| kinda ki scroll cheii, 3 diagrams vuntai avvi ekkada draw chei | Onpage Reference            | Continuation of flowchart on the same page |
+|                                                                | Off Page Reference          | Continuation of flowchart on another page  |
+|                                                                | Double Side Ended Rectangle | Indicates a Subroutine                     |
 
-Is also know as a plan for algorithm.
+a flowchart Is also know as a plan for algorithm.
 
-These are the mainly used symbols while we are drwing flowcharts
-
+These are the mainly used symbols while we are drawing flowcharts
 
 ---
 
 Now we are going to draw an example flow chart
 ### Example for flowchart.
-Flow chat for sum of two numbers.
+*Flow chat for sum of two numbers.*
 
 ```mermaid
 flowchart TB
