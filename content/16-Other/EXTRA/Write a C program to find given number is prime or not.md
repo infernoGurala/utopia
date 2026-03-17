@@ -1,5 +1,3 @@
-# C Program to Check Whether a Number Is Prime
-
 A prime number has exactly two factors: `1` and itself.
 
 ## Program

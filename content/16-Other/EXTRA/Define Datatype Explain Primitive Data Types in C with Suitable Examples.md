@@ -1,5 +1,3 @@
-# Define Data Type and Explain Primitive Data Types in C
-
 A data type tells the compiler what kind of value a variable can store and how much memory it needs.
 
 ## Primitive Data Types in C

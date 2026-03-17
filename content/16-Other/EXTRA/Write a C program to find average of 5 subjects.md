@@ -1,5 +1,3 @@
-# C Program to Find the Average of 5 Subjects
-
 This program reads marks of five subjects, finds the total, and then calculates the average.
 
 ## Program

@@ -1,5 +1,3 @@
-# C Program to Find the Sum of `n` Natural Numbers
-
 The sum of the first `n` natural numbers can be found using a loop.
 
 ## Program

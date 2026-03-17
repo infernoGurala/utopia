@@ -1,5 +1,3 @@
-# Syntax of `switch` and Calculator Program
-
 The `switch` statement is a multi-way decision control structure. It checks the value of an expression and executes the matching case.
 
 ## Syntax

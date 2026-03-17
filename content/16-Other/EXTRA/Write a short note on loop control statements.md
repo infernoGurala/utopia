@@ -1,5 +1,3 @@
-# Short Note on Loop Control Statements
-
 Loop control statements change the normal execution of loops.
 
 ## Types

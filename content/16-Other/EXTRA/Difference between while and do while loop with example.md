@@ -1,5 +1,3 @@
-# Difference Between `while` and `do-while`
-
 Both `while` and `do-while` are looping statements in C. They are used to repeat a set of statements.
 
 ## Main Difference

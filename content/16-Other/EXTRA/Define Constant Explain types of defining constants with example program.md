@@ -1,5 +1,3 @@
-# Define Constant and Explain Types of Constants in C
-
 A constant is a fixed value that does not change during the execution of a program.
 
 ## Types of Constants in C

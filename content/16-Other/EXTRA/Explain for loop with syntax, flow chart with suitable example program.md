@@ -1,5 +1,3 @@
-# Explain `for` Loop with Syntax, Flowchart, and Example
-
 The `for` loop is used when the number of iterations is known in advance.
 
 ## Syntax

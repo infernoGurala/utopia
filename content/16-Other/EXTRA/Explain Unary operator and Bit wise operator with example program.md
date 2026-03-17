@@ -1,5 +1,3 @@
-# Explain Unary Operator and Bitwise Operator
-
 ## Unary Operators
 
 Unary operators work on a single operand.

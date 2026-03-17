@@ -1,5 +1,3 @@
-# What Is an Algorithm and Its Characteristics
-
 An algorithm is a finite sequence of clear steps used to solve a problem. It accepts input, processes it logically, and produces the required output.
 
 ## Characteristics of an Algorithm

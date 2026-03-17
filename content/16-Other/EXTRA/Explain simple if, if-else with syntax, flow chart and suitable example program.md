@@ -1,5 +1,3 @@
-# Explain `if` and `if-else` with Syntax, Flowchart, and Example
-
 The `if` statement is used to execute a block only when a condition is true. The `if-else` statement chooses between two blocks based on a condition.
 
 ## Syntax of `if`
@@ -50,6 +48,5 @@ int main() {
 }
 ```
 
-## Conclusion
 
 `if` is used for one-way selection, and `if-else` is used for two-way selection.

@@ -1,5 +1,3 @@
-# Basic Input and Output Functions in C
-
 Input and output functions are used to read data from the user and display results on the screen.
 
 ## Common Input/Output Functions

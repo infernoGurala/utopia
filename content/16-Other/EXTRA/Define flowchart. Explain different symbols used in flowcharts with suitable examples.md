@@ -1,5 +1,3 @@
-# Define Flowchart and Explain Symbols
-
 A flowchart is the graphical representation of an algorithm. It uses standard symbols to show the sequence of operations in solving a problem.
 
 ## Common Flowchart Symbols

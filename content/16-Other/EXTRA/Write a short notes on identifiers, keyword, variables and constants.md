@@ -1,5 +1,3 @@
-# Short Notes on Identifiers, Keywords, Variables, and Constants
-
 ## Identifiers
 
 Identifiers are names given to variables, functions, arrays, and other user-defined items.
@@ -39,7 +37,7 @@ const float PI = 3.14;
 #define MAX 100
 ```
 
-## Summary
+#### for yoyr understandinggg
 
 - Identifier: user-defined name
 - Keyword: reserved word

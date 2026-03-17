@@ -1,5 +1,3 @@
-# Define Operator and Explain Types of Operators in C
-
 An operator is a symbol that performs an operation on one or more operands.
 
 ## Types of Operators in C

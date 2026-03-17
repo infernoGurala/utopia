@@ -1,5 +1,3 @@
-# Explain Nested `for` Loop with Syntax and Example
-
 A nested `for` loop means one `for` loop inside another `for` loop. It is commonly used for patterns, tables, and matrix operations.
 
 ## Syntax

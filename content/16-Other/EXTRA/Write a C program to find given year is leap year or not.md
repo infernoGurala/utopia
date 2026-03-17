@@ -1,5 +1,3 @@
-# C Program to Check Whether a Year Is a Leap Year
-
 A year is a leap year if:
 
 - it is divisible by 400, or

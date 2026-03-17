@@ -1,5 +1,3 @@
-# C Program to Find the Factorial of a Number
-
 The factorial of a positive integer `n` is:
 
 `n! = n x (n - 1) x (n - 2) x ... x 1`

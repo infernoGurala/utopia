@@ -1,5 +1,3 @@
-# Describe the Structure of a C Program
-
 The structure of a C program refers to the standard sections used to write a valid program.
 
 ## Basic Structure

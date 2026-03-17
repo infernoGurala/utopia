@@ -1,5 +1,3 @@
-# C Program to Find the Square Root of a Number
-
 The `sqrt()` function from `math.h` is used to find the square root of a number.
 
 ## Program

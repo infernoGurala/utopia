@@ -1,5 +1,3 @@
-# What Is Type Casting and Type Conversion
-
 Type conversion means changing a value from one data type to another. In C, this can happen automatically or manually.
 
 ## Types of Conversion
