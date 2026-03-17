@@ -2,17 +2,18 @@ An operator is a symbol that performs an operation on one or more operands.
 
 ## Types of Operators in C
 `there are 8 types` - remember this
+write ⭐️, enough for exam
 
-| Type                 | Operators               | Example                |
-| -------------------- | ----------------------- | ---------------------- |
-| Arithmetic operators | `+ - * / %`             | `c = a + b;`           |
-| Relational           | `> < >= <= == !=`       | `a > b`                |
-| Logical              | `&&                     |                        |
-| Assignment           | `= += -= *= /=`         | `x += 5;`              |
-| Increment/Decrement  | `++ --`                 | `i++;`                 |
-| Bitwise              | `& \| ^ ~ << >>`        | `a & b`                |
-| Conditional          | `?:`                    | `max = a > b ? a : b;` |
-| Special              | `sizeof`, `,`, `&`, `*` | `sizeof(int)`          |
+| Type                   | Operators         | what they do?                                       | Example                                             |
+| ---------------------- | ----------------- | --------------------------------------------------- | --------------------------------------------------- |
+| ⭐️Arithmetic operators | `+ - * / %`       | basic math                                          | `c = a + b;`                                        |
+| ⭐️Relational           | `> < >= <= == !=` | compares 2 values,                                  | `a > b`                                             |
+| Logical                | `&& !` \| \|      | AND,NOT,OR                                          | a > 0 && b > 0<br>this means both must be true.     |
+| Assignment             | `= += -= *= /=`   | store value in variable                             | `x += 5;` adds +5 to x                              |
+| Increment/Decrement    | `++ --`           | add or sub                                          | `i++;`                                              |
+| ⭐️Bitwise              | `& ^ ~ << >>` \|  | operates on bits                                    | `a & b`                                             |
+| Conditional            | `?:`              | can replace if and else, the only terinary operator | `max = a > b ? a : b;` if a is > b give `a` to max. |
+
 
 ## Example Program
 
@@ -29,7 +30,5 @@ int main() {
     return 0;
 }
 ```
-
-## Summary
 
 Operators are essential in C for calculations, comparisons, decision making, and memory-related tasks.
