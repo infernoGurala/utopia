@@ -8,7 +8,7 @@ for (initialization; condition; update) {
 }
 ```
 
-## Mermaid Flowchart
+## Flowchart
 
 ```mermaid
 flowchart TD

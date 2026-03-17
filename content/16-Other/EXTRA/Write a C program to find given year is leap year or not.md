@@ -22,17 +22,3 @@ int main() {
     return 0;
 }
 ```
-
-## Mermaid Decision Flow
-
-```mermaid
-flowchart TD
-    A([Start]) --> B[/Read year/]
-    B --> C{year % 400 == 0?}
-    C -- Yes --> D[Leap year]
-    C -- No --> E{year % 4 == 0 and year % 100 != 0?}
-    E -- Yes --> D
-    E -- No --> F[Not a leap year]
-    D --> G([Stop])
-    F --> G
-```
