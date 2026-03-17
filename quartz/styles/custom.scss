@@ -439,11 +439,16 @@ article {
 /* Warm, spacious study-note style for content/16-Other/EXTRA */
 body[data-slug="16-Other/EXTRA"],
 body[data-slug^="16-Other/EXTRA/"] {
-  --extra-body: #dfdac7;
-  --extra-strong: #d7a53a;
-  --extra-heading: #a7ad42;
+  --extra-body: #c5cbea;
+  --extra-h1: #a4e694;
+  --extra-h2: #f2deab;
+  --extra-h3: #eca3b4;
+  --extra-h4: #aeb6ff;
+  --extra-strong: #a4e694;
+  --extra-em: #f2deab;
   --extra-tip: #76a46f;
-  --extra-mark-bg: rgba(215, 165, 58, 0.28);
+  --extra-mark-bg: #f1dcc8;
+  --extra-mark-text: #2a2940;
 }
 
 body[data-slug="16-Other/EXTRA"] .center article,
@@ -459,6 +464,7 @@ body[data-slug^="16-Other/EXTRA/"] .article-title {
   margin-top: 1.2rem;
   margin-bottom: 1.05rem;
   letter-spacing: -0.015em;
+  color: var(--extra-h1) !important;
 }
 
 body[data-slug="16-Other/EXTRA"] .center article > p,
@@ -483,13 +489,41 @@ body[data-slug^="16-Other/EXTRA/"] .center article li {
   line-height: 1.84;
 }
 
+body[data-slug="16-Other/EXTRA"] .center article h1,
+body[data-slug^="16-Other/EXTRA/"] .center article h1 {
+  margin-top: 1.85rem;
+  margin-bottom: 0.65rem;
+  color: var(--extra-h1) !important;
+  letter-spacing: -0.02em;
+}
+
 body[data-slug="16-Other/EXTRA"] .center article h2,
+body[data-slug^="16-Other/EXTRA/"] .center article h2 {
+  margin-top: 1.9rem;
+  margin-bottom: 0.8rem;
+  color: var(--extra-h2) !important;
+  font-size: 1rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
 body[data-slug="16-Other/EXTRA"] .center article h3,
-body[data-slug^="16-Other/EXTRA/"] .center article h2,
 body[data-slug^="16-Other/EXTRA/"] .center article h3 {
-  margin-top: 1.6rem;
-  margin-bottom: 0.55rem;
-  color: var(--extra-heading) !important;
+  margin-top: 1.35rem;
+  margin-bottom: 0.45rem;
+  color: var(--extra-h3) !important;
+  letter-spacing: -0.01em;
+}
+
+body[data-slug="16-Other/EXTRA"] .center article h4,
+body[data-slug="16-Other/EXTRA"] .center article h5,
+body[data-slug="16-Other/EXTRA"] .center article h6,
+body[data-slug^="16-Other/EXTRA/"] .center article h4,
+body[data-slug^="16-Other/EXTRA/"] .center article h5,
+body[data-slug^="16-Other/EXTRA/"] .center article h6 {
+  color: var(--extra-h4) !important;
   letter-spacing: -0.01em;
 }
 
@@ -499,9 +533,32 @@ body[data-slug^="16-Other/EXTRA/"] .center article strong {
   font-weight: 700;
 }
 
+body[data-slug="16-Other/EXTRA"] .center article em,
+body[data-slug^="16-Other/EXTRA/"] .center article em {
+  color: var(--extra-em) !important;
+}
+
+body[data-slug="16-Other/EXTRA"] .center article strong em,
+body[data-slug="16-Other/EXTRA"] .center article em strong,
+body[data-slug^="16-Other/EXTRA/"] .center article strong em,
+body[data-slug^="16-Other/EXTRA/"] .center article em strong {
+  color: var(--extra-strong) !important;
+}
+
+body[data-slug="16-Other/EXTRA"] .center article del,
+body[data-slug^="16-Other/EXTRA/"] .center article del {
+  color: var(--extra-h3) !important;
+  text-decoration-color: currentColor;
+}
+
+body[data-slug="16-Other/EXTRA"] .center article code,
+body[data-slug^="16-Other/EXTRA/"] .center article code {
+  color: var(--extra-h4) !important;
+}
+
 body[data-slug="16-Other/EXTRA"] .center article mark,
 body[data-slug^="16-Other/EXTRA/"] .center article mark {
-  color: #ece7d4 !important;
+  color: var(--extra-mark-text) !important;
   background: var(--extra-mark-bg);
   border-radius: 0.22rem;
   padding: 0.04rem 0.34rem;

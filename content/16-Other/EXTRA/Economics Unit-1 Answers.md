@@ -2,7 +2,7 @@
 
 ## Q1
 
-**Define Managerial Economics and explain its nature.**
+### Define Managerial Economics and explain its nature.
 
 Managerial Economics is the use of economic ideas and analytical tools in business decision-making. It helps managers choose the best option when resources like money, time, labour, and materials are limited.
 
@@ -17,7 +17,7 @@ In simple words, managerial economics acts as a bridge between economic theory a
 
 ## Q2
 
-**Define Managerial Economics and explain its scope.**
+### Define Managerial Economics and explain its scope.
 
 Managerial Economics means applying economic principles to business decisions. It helps managers solve practical problems using logic, data, and economic thinking.
 
@@ -34,7 +34,7 @@ So, the scope of managerial economics is wide. It supports almost every major bu
 
 ## Q3
 
-**Define Demand. Explain Demand function.**
+### Define Demand. Explain Demand function.
 
 Demand means the quantity of a product that consumers are **willing and able** to buy at different prices during a given period. Mere desire is not demand. It must be supported by purchasing power.
 
@@ -53,7 +53,7 @@ This means demand depends on many factors, not only price. Usually, when price r
 
 ## Q4
 
-**Define Demand. Explain factors of demand.**
+### Define Demand. Explain factors of demand.
 
 Demand is the quantity of a product that consumers are ready and able to purchase at different prices during a certain period of time.
 
@@ -69,7 +69,7 @@ These factors together decide how much of a product people buy. Among them, pric
 
 ## Q5
 
-**Explain the Law of Demand.**
+### Explain the Law of Demand.
 
 The **Law of Demand** states that, **other things remaining the same**, quantity demanded of a good falls when its price rises, and rises when its price falls. So, price and demand have an **inverse relationship**.
 
@@ -86,7 +86,7 @@ The law works only when other factors like income, taste, and population remain 
 
 ## Q6
 
-**Explain the Law of Demand with exceptions.**
+### Explain the Law of Demand with exceptions.
 
 The **Law of Demand** says that when price rises, demand falls, and when price falls, demand rises, keeping other things constant.
 
@@ -104,7 +104,7 @@ So, the law of demand is generally true, but not universal in every case.
 
 ## Q7
 
-**Explain Price Elasticity of Demand and its types.**
+### Explain Price Elasticity of Demand and its types.
 
 **Price Elasticity of Demand (PED)** measures how much quantity demanded changes when price changes. It shows whether consumers react strongly or weakly to price change.
 
@@ -121,7 +121,7 @@ This concept is useful in pricing, sales planning, and revenue decisions. If dem
 
 ## Q8
 
-**Explain importance of Elasticity of Demand.**
+### Explain importance of Elasticity of Demand.
 
 Elasticity of demand is important because it helps firms and government understand how consumers react to price changes.
 
@@ -139,7 +139,7 @@ So, elasticity of demand is a very useful tool for business decisions and market
 
 ## Q9
 
-**Discuss demand forecasting methods.**
+### Discuss demand forecasting methods.
 
 Demand forecasting means estimating future demand for a product. It helps firms plan production, stock, labour, and finance.
 
@@ -155,7 +155,7 @@ These methods are mainly grouped into **qualitative** and **quantitative** metho
 
 ## Q10
 
-**Discuss any four demand forecasting methods.**
+### Discuss any four demand forecasting methods.
 
 Four important demand forecasting methods are:
 
@@ -171,7 +171,7 @@ These methods help firms estimate demand before making production and pricing de
 
 ## Q11
 
-**Discuss survey methods of demand forecasting.**
+### Discuss survey methods of demand forecasting.
 
 Survey methods of demand forecasting collect information directly from buyers or sellers. These methods are useful when the firm wants to know future customer preference.
 
@@ -185,7 +185,7 @@ These methods are simple and practical, especially for new products or changing 
 
 ## Q12
 
-**Discuss factors influencing demand forecasting.**
+### Discuss factors influencing demand forecasting.
 
 Demand forecasting is affected by many factors. A firm must study these carefully to make a good estimate.
 
@@ -203,7 +203,7 @@ If these factors are properly studied, forecasting becomes more reliable. Ignori
 
 ## Q13
 
-**Define Demand. Explain types of demand.**
+### Define Demand. Explain types of demand.
 
 Demand means the quantity of a product that consumers are willing and able to buy at a given price during a specific period.
 
@@ -219,7 +219,7 @@ These types help businesses understand how and why products are demanded. Knowin
 
 ## Q14
 
-**Explain Law of Demand with assumptions and exceptions.**
+### Explain Law of Demand with assumptions and exceptions.
 
 The **Law of Demand** states that quantity demanded rises when price falls and falls when price rises, assuming other factors remain unchanged.
 

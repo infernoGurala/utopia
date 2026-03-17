@@ -2,7 +2,7 @@
 
 ## Q1
 
-**Define Production Function and explain.**
+### Define Production Function and explain.
 
 A **production function** shows the relationship between inputs and output. It explains the maximum output that a firm can produce by using different quantities of factors like labour and capital during a given period.
 
@@ -19,7 +19,7 @@ It helps a firm understand how output changes when input changes. For example, i
 
 ## Q2
 
-**Explain Law of Variable Proportions.**
+### Explain Law of Variable Proportions.
 
 The **Law of Variable Proportions** explains what happens to output when one input is increased while other inputs remain fixed.
 
@@ -36,7 +36,7 @@ This law is important because it helps firms decide the most efficient level of 
 
 ## Q3
 
-**Discuss Isoquants.**
+### Discuss Isoquants.
 
 An **isoquant** is a curve that shows different combinations of labour and capital that produce the same level of output.
 
@@ -55,7 +55,7 @@ Thus, isoquants are useful in understanding substitution between factors of prod
 
 ## Q4
 
-**Discuss Isocost curves.**
+### Discuss Isocost curves.
 
 An **isocost curve** shows different combinations of labour and capital that a firm can buy with a fixed amount of money.
 
@@ -78,7 +78,7 @@ Isocost curves are important because they help the producer find the least-cost 
 
 ## Q5
 
-**Explain Producer’s Equilibrium.**
+### Explain Producer’s Equilibrium.
 
 **Producer’s equilibrium** is the point where a firm gets maximum output at minimum cost, or produces a given output at the lowest possible cost.
 
@@ -96,7 +96,7 @@ Producer’s equilibrium is useful in production planning and cost minimization.
 
 ## Q6
 
-**Explain MRTS.**
+### Explain MRTS.
 
 **MRTS** means **Marginal Rate of Technical Substitution**. It shows the rate at which one input can be substituted for another without changing the level of output.
 
@@ -110,7 +110,7 @@ MRTS is important because it helps producers choose the best combination of labo
 
 ## Q7
 
-**Discuss Fixed Cost and Variable Cost.**
+### Discuss Fixed Cost and Variable Cost.
 
 **Fixed cost** is the cost that remains the same even when output changes. It does not depend on the level of production.
 
@@ -130,7 +130,7 @@ Both are important in business decisions. Fixed cost must be paid even if produc
 
 ## Q8
 
-**Discuss Explicit Cost and Implicit Cost.**
+### Discuss Explicit Cost and Implicit Cost.
 
 **Explicit cost** means actual money payments made by the firm to outsiders for production.
 
@@ -150,7 +150,7 @@ Explicit cost is recorded in accounts, but implicit cost is not directly paid. B
 
 ## Q9
 
-**Discuss Cost and Opportunity Cost.**
+### Discuss Cost and Opportunity Cost.
 
 **Cost** means the expenditure incurred for producing goods or services. It includes spending on labour, materials, rent, power, and other resources.
 
@@ -164,7 +164,7 @@ This concept helps in better planning and smarter decision-making.
 
 ## Q10
 
-**Explain Break-Even Point (BEP) with graph.**
+### Explain Break-Even Point (BEP) with graph.
 
 **Break-Even Point (BEP)** is the level of sales where **total revenue equals total cost**. At this point, there is **no profit and no loss**.
 
@@ -186,7 +186,7 @@ This means the firm must sell 500 units to cover all costs. Sales below this poi
 
 ## Q11
 
-**Explain importance of BEP.**
+### Explain importance of BEP.
 
 The **Break-Even Point** is important because it tells the firm the minimum sales needed to avoid loss.
 
@@ -204,7 +204,7 @@ When managers know the break-even point, they can decide how much to produce and
 
 ## Q12
 
-**Discuss BEP with formulas and graph.**
+### Discuss BEP with formulas and graph.
 
 **Break-Even Point (BEP)** is the point where total cost and total revenue are equal. At this point, profit is zero.
 
