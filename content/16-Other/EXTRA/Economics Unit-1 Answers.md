@@ -19,7 +19,7 @@ In simple words, managerial economics acts as a bridge between economic theory a
 
 ### Define Managerial Economics and explain its scope.
 
-Managerial Economics means applying economic principles to business decisions. It helps managers solve practical problems using logic, data, and economic thinking.
+Managerial Economics means applying **economic principles** to **business decisions**. It helps managers solve practical problems using logic, data, and economic thinking.
 
 **Scope of Managerial Economics:**
 - **Demand analysis and forecasting**: knowing present and future demand.
