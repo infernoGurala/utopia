@@ -20,7 +20,7 @@ if (condition) {
 }
 ```
 
-## Mermaid Flowchart
+## Flowchart
 
 ```mermaid
 flowchart TD

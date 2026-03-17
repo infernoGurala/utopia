@@ -17,7 +17,7 @@ switch (expression) {
 }
 ```
 
-## Mermaid Flowchart
+## Flowchart
 
 ```mermaid
 flowchart TD

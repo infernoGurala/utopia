@@ -29,7 +29,7 @@ Enter n: 5
 Sum = 15
 ```
 
-## Mermaid Idea
+## idea
 
 ```mermaid
 flowchart TD
