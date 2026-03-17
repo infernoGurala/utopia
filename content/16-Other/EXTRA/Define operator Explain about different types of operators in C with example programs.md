@@ -1,17 +1,18 @@
 An operator is a symbol that performs an operation on one or more operands.
 
 ## Types of Operators in C
+`there are 8 types` - remember this
 
-| Type                | Operators               | Example                |     |                  |
-| ------------------- | ----------------------- | ---------------------- | --- | ---------------- |
-| Arithmetic          | `+ - * / %`             | `c = a + b;`           |     |                  |
-| Relational          | `> < >= <= == !=`       | `a > b`                |     |                  |
-| Logical             | `&&                     |                        | !`  | `a > 0 && b > 0` |
-| Assignment          | `= += -= *= /=`         | `x += 5;`              |     |                  |
-| Increment/Decrement | `++ --`                 | `i++;`                 |     |                  |
-| Bitwise             | `& \| ^ ~ << >>`        | `a & b`                |     |                  |
-| Conditional         | `?:`                    | `max = a > b ? a : b;` |     |                  |
-| Special             | `sizeof`, `,`, `&`, `*` | `sizeof(int)`          |     |                  |
+| Type                 | Operators               | Example                |
+| -------------------- | ----------------------- | ---------------------- |
+| Arithmetic operators | `+ - * / %`             | `c = a + b;`           |
+| Relational           | `> < >= <= == !=`       | `a > b`                |
+| Logical              | `&&                     |                        |
+| Assignment           | `= += -= *= /=`         | `x += 5;`              |
+| Increment/Decrement  | `++ --`                 | `i++;`                 |
+| Bitwise              | `& \| ^ ~ << >>`        | `a & b`                |
+| Conditional          | `?:`                    | `max = a > b ? a : b;` |
+| Special              | `sizeof`, `,`, `&`, `*` | `sizeof(int)`          |
 
 ## Example Program
 
