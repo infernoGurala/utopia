@@ -1,5 +1,6 @@
 Input and output functions are used to read data from the user and display results on the screen.
 
+these are included in the library stdio.h
 ## Common Input/Output Functions
 
 | Function    | Purpose                        |

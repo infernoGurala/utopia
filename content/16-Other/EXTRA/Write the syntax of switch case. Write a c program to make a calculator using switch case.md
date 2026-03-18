@@ -15,24 +15,6 @@ switch (expression) {
 }
 ```
 
-## Flowchart
-
-```mermaid
-flowchart TD
-    A([Start]) --> B[/Read operator and numbers/]
-    B --> C{Operator}
-    C -- + --> D[Add]
-    C -- - --> E[Subtract]
-    C -- * --> F[Multiply]
-    C -- / --> G[Divide]
-    C -- Other --> H[Invalid operator]
-    D --> I([End])
-    E --> I
-    F --> I
-    G --> I
-    H --> I
-```
-
 ## Calculator Program
 
 ```c
