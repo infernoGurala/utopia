@@ -6,16 +6,17 @@ The sum of the first `n` natural numbers can be found using a loop.
 #include <stdio.h>
 
 int main() {
-    int n, i, sum = 0;
+    int n,add,multiply;
 
     printf("Enter n: ");
     scanf("%d", &n);
 
-    for (i = 1; i <= n; i++) {
-        sum = sum + i;
-    }
+    add = n+1;  // formula is n(n+1)/2
+    multiply = n*add;
+    div = multiply/2;
+    
 
-    printf("Sum = %d\n", sum);
+    printf("Sum = %d\n", div);
     return 0;
 }
 ```
