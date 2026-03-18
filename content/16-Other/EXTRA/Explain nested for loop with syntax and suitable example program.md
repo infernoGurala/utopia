@@ -10,22 +10,6 @@ for (initialization1; condition1; update1) {
 }
 ```
 
-## Mermaid Flowchart
-
-```mermaid
-flowchart TD
-    A([Start]) --> B[Initialize outer loop]
-    B --> C{Outer condition}
-    C -- True --> D[Initialize inner loop]
-    D --> E{Inner condition}
-    E -- True --> F[Execute statements]
-    F --> G[Update inner loop]
-    G --> E
-    E -- False --> H[Update outer loop]
-    H --> C
-    C -- False --> I([Stop])
-```
-
 ## Example Program
 
 ```c

@@ -30,17 +30,4 @@ for (int i = 1; i <= 5; i++) {
 
 Output: `1 2 4 5`
 
-### 3. `goto`
-
-Transfers control to a labeled statement. It should be used carefully.
-
-```c
-goto end;
-printf("This line is skipped");
-end:
-printf("End");
-```
-
-## Summary
-
-`break` exits the loop, `continue` skips one iteration, and `goto` jumps to another labeled statement.
+`break` exits the loop, `continue` skips one iteration.
