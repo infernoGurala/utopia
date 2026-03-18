@@ -5,7 +5,7 @@ cssclasses: [shine-title]
 # MID QUESTIONS
 🌟high
 ⭐️medium
-☠️⚠️don't blindly trust the starts!
+☠️⚠️don't blindly trust the stars!
 ## Unit - I
 
 1. 🌟[[What is an algorithm and its characteristics]]
