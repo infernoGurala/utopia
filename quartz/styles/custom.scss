@@ -57,7 +57,7 @@ body {
 }
 
 @media all and (max-width: 1024px) {
-  body {
+  body[data-slug="index"] {
     min-height: 100vh;
     display: grid;
     place-items: center;
@@ -67,11 +67,11 @@ body {
       var(--m3-surface) !important;
   }
 
-  body > * {
+  body[data-slug="index"] > * {
     display: none !important;
   }
 
-  body::before {
+  body[data-slug="index"]::before {
     content: "Desktop Only\A\A Utopia is disabled on mobile devices.\A Please use the mobile app instead, or open this website on a desktop or laptop.";
     white-space: pre-line;
     max-width: 28rem;
