@@ -74,6 +74,7 @@ title: Download UTOPIA
     </div>
   </section>
 </div>
+
 <style>
 :root {
   --download-bg-1: #08111f;
