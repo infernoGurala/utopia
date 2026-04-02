@@ -5,7 +5,6 @@ title: Download UTOPIA
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
-
 <div class="download-page">
   <section class="download-hero">
     <div class="eyebrow">UTOPIA MOBILE</div>
@@ -13,14 +12,12 @@ title: Download UTOPIA
     <p class="hero-copy">
       Version 2.2.1 is ready. This release requires a one-time reinstall, but your cloud data stays intact and available after sign-in.
     </p>
-
     <div class="hero-actions">
       <a class="primary-cta" href="/static/downloads/Utopia-v2.2.1.apk" download>
         Download APK
       </a>
       <div class="build-pill">Android APK • v2.2.1</div>
     </div>
-
     <div class="hero-grid">
       <div class="hero-card">
         <span class="card-kicker">What changes</span>
@@ -39,7 +36,6 @@ title: Download UTOPIA
       </div>
     </div>
   </section>
-
   <section class="detail-strip">
     <div class="detail-card">
       <span>01</span>
@@ -54,7 +50,6 @@ title: Download UTOPIA
       Install it and sign back in if the app asks.
     </div>
   </section>
-
   <section class="confidence-panel">
     <div>
       <div class="eyebrow">WHY THIS PAGE EXISTS</div>
@@ -63,7 +58,6 @@ title: Download UTOPIA
         This page is intentionally focused: one release, one action, no clutter. Everything here is tuned to get users onto the correct build with zero ambiguity.
       </p>
     </div>
-
     <div class="confidence-points">
       <div class="confidence-item">
         <strong>One-time migration</strong>
@@ -80,7 +74,6 @@ title: Download UTOPIA
     </div>
   </section>
 </div>
-
 <style>
 :root {
   --download-bg-1: #08111f;
