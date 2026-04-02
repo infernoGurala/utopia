@@ -1,5 +1,12 @@
-### latest verison  v2.2.1
+## UTOPIA v2.2.1
 
-[click here to download](https://github.com/infernoGurala/utopia-app/releases/download/v2.2.1/Utopia-new.apk)
+A one-time reinstall is required for this update.
 
-> [!WARNING]delete the old app before installing.
+1. Uninstall the current UTOPIA app from your phone.
+2. Download the latest APK using the button below.
+3. Install the APK.
+4. Open the app and sign in again if needed.
+
+Your cloud data remains safe. This is only required once.
+
+<a href="/static/downloads/Utopia-v2.2.1.apk" download>Download APK</a>
