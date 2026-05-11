@@ -1,23 +1,11 @@
 ---
-title: Semester II
+title: Cheat code 3003S
 socialImage: https://utopia.inferalis.space/static/og-image.png
 ---
-Your university files, beautifully organised.
-
+If the system is stupid, why not have it?
 
 <div class="course-grid">
-  <a href="02-Thermodynamics" class="course-card"><span class="course-icon material-symbols-outlined">local_fire_department</span>Thermodynamics</a>
-  <a href="03-DEVC" class="course-card"><span class="course-icon material-symbols-outlined">calculate</span>DEVC</a>
-  <a href="04-BEEE/" class="course-card"><span class="course-icon material-symbols-outlined">electrical_services</span>Electrical & Electronics</a>
-  <a href="05-Chemistry" class="course-card"><span class="course-icon material-symbols-outlined">science</span>Chemistry</a>
-  <a href="07-Economics" class="course-card"><span class="course-icon material-symbols-outlined">bar_chart</span>Economics</a>
-  <a href="09-PPSUC" class="course-card"><span class="course-icon material-symbols-outlined">code</span>PPSUC</a>
-  <a href="10-IOT" class="course-card"><span class="course-icon material-symbols-outlined">sensors</span>IOT</a>
-  <a href="08-CRT" class="course-card"><span class="course-icon material-symbols-outlined">fact_check</span>CRT</a>
-  <a href="11-LAB" class="course-card"><span class="course-icon material-symbols-outlined">biotech</span>LAB</a>
-  <a href="14-Archive" class="course-card"><span class="course-icon material-symbols-outlined">archive</span>Archive</a>
-  <a href="15-Docs" class="course-card"><span class="course-icon material-symbols-outlined">school</span>Docs</a>
-  <a href="16-Other" class="course-card"><span class="course-icon material-symbols-outlined">category</span>Other</a>
+  <a href="IOT" class="course-card"><span class="course-icon material-symbols-outlined">sensors</span>IOT</a>
 </div>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,500,0,200">
